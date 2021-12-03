@@ -1,0 +1,209 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion3.png);
+}
+
+div#cuadro{
+	position:absolute;	
+	width: 850px;
+	height: 520px;
+	top: 170px;
+	left: 100px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+}
+div#marco-tira-roja{
+	position:absolute;
+	top: 15px;
+	left: -100px;
+}
+img#tira-roja{
+	width: 680px;
+	height: 75px;
+}
+div#marco-componentes{
+	position:absolute;
+	top:25px;
+	left:-45px;
+}
+label#letra-componentes{
+	font-family: ClementePDai-Regular;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+div#imagen-sol{
+	position:absolute;
+	top: 10px;
+	left: 510px;
+}
+img#imagen-sol{
+	width: 40px;
+	height: 39px;
+}
+div#imagen-esferas{
+	position:absolute;
+	top: 10px;
+	left: 720px;
+}
+img#imagen-esferas{
+	width: 120px;
+	height: 119px;
+}
+div#marco-pastilla{
+	/*border: 3px solid green;*/
+	width: 750px;
+	height: 400px;
+	position:absolute;
+	top: 100px;
+	left: 60px;
+}
+div#chromo{
+	position:absolute;
+	top: 20px;
+	left: 250px;
+}
+div#img1{
+	position:absolute;
+	top: 10px;
+	left: 320px;
+}
+img#guion1{
+	margin-top: 20px;
+	width: 8px;
+	height: 50px;
+}
+div#extracto{
+	position:absolute;
+	top: 65px;
+	left: 560px;
+}
+div#img4{
+	position:absolute;
+	top: 65px;
+	left: 480px;
+}
+img#guion2{
+	width: 80px;
+	height: 9px;
+}
+div#img5{
+	position:absolute;
+	top: 20px;
+	left: 570px;
+}
+img#extracto{
+	width: 45px;
+	height: 45px;
+}
+div#selenio{
+	position:absolute;
+	top: 155px;
+	left: 80px;
+}
+div#img2{
+	position:absolute;
+	top: 160px;
+	left: 145px;
+}
+img#guion3{
+	width: 80px;
+	height: 9px;
+}
+div#aceite{
+	position:absolute;
+	top: 190px;
+	left: 580px;
+}
+div#img6{
+	position:absolute;
+	top: 180px;
+	left: 505px;
+}
+img#guion4{
+	width: 80px;
+	height: 9px;
+}
+div#vitaminac{
+	position:absolute;
+	top: 315px;
+	left: 60px;
+}
+div#img3{
+	position:absolute;
+	top: 320px;
+	left: 155px;
+}
+img#guion5{
+	width: 35px;
+	height: 9px;
+}
+div#beta{
+	position:absolute;
+	top: 322px;
+	left: 470px;
+}
+div#img7{
+	position:absolute;
+	top: 240px;
+	left: 460px;
+}
+img#guion6{
+	width: 9px;
+	height: 100px;
+}
+div#zinc{
+	position:absolute;
+	top: 360px;
+	left: 380px;
+}
+div#img8{
+	position:absolute;
+	top: 365px;
+	left: 300px;
+}
+img#guion7{
+	width: 80px;
+	height: 9px;
+}
+label#letra-gris{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 18px;
+	color: #6F6F6E;
+}
+div#pastilla{
+	position:absolute;
+	top: 50px;
+	left: 180px;
+}
+img#pastilla{
+	width: 330px;
+	height: 330px;
+}
+
+/*POPUP1**/
+div#marco-pop{
+	top: 28px;
+	left: 495px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "ClementePDai-Regular";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 14px;
+}

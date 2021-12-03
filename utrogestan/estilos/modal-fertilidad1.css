@@ -1,0 +1,283 @@
+/*modal*/
+div#modal {
+  background: rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  position: absolute;
+  top: -800px;/*-800*/
+  left: -150px;
+  height: 600px;
+  width: 850px;
+  transition: all .5s;
+  z-index:100;
+  border-radius: 30px 30px 30px 30px;
+}
+
+#mostrar-modal {
+  display: none;
+}
+
+#mostrar-modal-mas {
+  display: none;
+}
+
+#mostrar-modal + label {
+	font-family: "Montserrat-ExtraBold";
+	font-size: 16px;
+	margin-top: 365px;
+    margin-left: 157px;
+    width:130px;
+    height:32px;
+	color: #FFFFFF;
+	border-width: 0px;
+	background: #03AE9D;
+	white-space: normal;
+	box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	text-transform: uppercase;
+	line-height: 32px;
+  	text-align: center;
+	position:absolute;
+}
+
+#mostrar-modal-mas + label {
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+  position: absolute;
+  top: 430px;
+  left: 90px;
+  color: #fff;
+  cursor: pointer;
+  background: #DE407A;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  transition: all .5s;
+}
+
+#mostrar-modal-mas:checked ~ #modal {
+  top: 70px;
+}
+/*Modal-activo*/
+#mostrar-modal:checked ~ #modal {
+  top: -100px;
+}
+
+#cerrar-modal {
+  display:none;
+}
+/*&times*/
+#cerrar-modal + label {
+  font-family: "Montserrat-Bold";
+  font-size: 35px;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 100;
+  color: #fff;
+  cursor: pointer;
+  background: #DE407A;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-modal:checked ~ #modal {
+  top: -610px;
+}
+
+div#marco-modal{
+	/*border: 3px solid purple;*/
+	width: 480px;
+	height: 280px;
+	top:50px;
+	left: 30px;
+	position:absolute;
+}
+label#letra-bold-layer2{
+	font-family: "Montserrat-SemiBold";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size:21px;
+}
+label#letra-light-layer2{
+	font-family: "Montserrat-Light";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size:21px;
+}
+div#pie-grafica{
+	position: absolute;
+	top:365px;
+	left: -10px;
+}
+label#letra-grafica{
+	font-family: "HelveticaNeueLTPro-LtCn";
+	font: bolder;
+	color: #6F6F6E;
+	font-size: 13px;
+}
+div#barra1{
+	position: absolute;
+	top:30px;
+	left: 70px;
+}
+img#barra1{
+  width: 401px;
+  height: 154px;
+  position: absolute;
+}
+div#texto-ciclo1{
+	position: absolute;
+	top:85px;
+	left: -10px;
+}
+div#texto-ciclo2{
+	position: absolute;
+	top:95px;
+	left: 10px;
+}
+div#texto-ciclo3{
+	position: absolute;
+	top:105px;
+	left: -7px;
+}
+div#texto-prueba1{
+	position: absolute;
+	top:35px;
+	left: 210px;
+}
+div#texto-prueba2{
+	position: absolute;
+	top:45px;
+	left: 210px;
+}
+div#texto-apartir{
+	position: absolute;
+	top:162px;
+	left: 45px;
+}
+div#texto-dia{
+	position: absolute;
+	top:162px;
+	left: 210px;
+}
+div#texto-semana{
+	position: absolute;
+	top:162px;
+	left: 344px;
+}
+div#texto-prescribir{
+	position: absolute;
+	top:197px;
+	left: 105px;
+}
+div#texto-inyeccion{
+	position: absolute;
+	top:252px;
+	left: 125px;
+}
+div#texto-ciclos1{
+	position: absolute;
+	top:290px;
+	left: 0px;
+}
+div#texto-ciclos2{
+	position: absolute;
+	top:300px;
+	left: -10px;
+}
+div#texto-embarazo{
+	position: absolute;
+	top:350px;
+	left: 344px;
+}
+label#texto-gris{
+	font-family: "Montserrat-Regular";
+	font-size: 9px;
+	color: #706F6F;
+}
+label#texto-rosa{
+	font-family: "Montserrat-Bold";
+	font-size: 9px;
+	color: #DB437B;
+}
+div#utrogestan-mini{
+	position: absolute;
+	top:195px;
+	left: 50px;
+}
+img#utrogestan-mini{
+  width: 50px;
+  height: 25px;
+  position: absolute;
+}
+div#division{
+	position: absolute;
+	top:230px;
+	left: -30px;
+}
+img#division{
+  width: 550px;
+  height: 2px;
+  position: absolute;
+}
+div#barra2{
+	position: absolute;
+	top:250px;
+	left: 70px;
+}
+img#barra2{
+  width: 401px;
+  height: 103px;
+  position: absolute;
+}
+div#jeringa{
+	position: absolute;
+	top:237px;
+	left: 33px;
+}
+img#jeringa{
+  width: 75px;
+  height: 19px;
+  position: absolute;
+}
+div#marco-boton-ventana{/*cuadro-blanco*/
+	width: 550px;
+	height: 450px;
+	top: -120px;
+	left: 150px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+    position:absolute;
+}
+
+button#boton-ventana{
+	font: "Montserrat-SemiBold";
+	position: absolute;
+	top:0px;
+	left: 0px;
+	font-size: 19px;
+	width:410px;
+	height:60px;
+	color: #FFFFFF;
+	border-width: 0px;
+	border-radius: 0px 30px 30px 0px;
+	background: #DB437B;
+	white-space: normal;
+	box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+button#boton-ventana:focus {
+	outline:0 !important;
+}
+
+/*endmodal*/

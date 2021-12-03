@@ -1,0 +1,146 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+@font-face {
+  font-family: "OptaneBold";
+  src: url("../fuentes/OptaneBold.ttf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/ogestan3.png);
+}
+div#encabezado{
+	/*border: 3px solid green;*/
+	width: 780px;
+  	height: 80px;
+	margin-top: 10px;
+	margin-left: 220px;
+	position:absolute;
+}
+div#texto-encabezado{
+	position: absolute;
+  	top:15px;
+	left: 10px;
+}
+div#logo-ogestan{
+	position: absolute;
+  	top:5px;
+	left: 555px;
+}
+img#logo-ogestan{
+	width: 210px;
+	height: 45px;
+}
+label#letra-bold{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #005490;
+	width: 290px;
+    height: 130px;
+	font-size: 35px;
+}
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+div#titulo-referencias{
+	position: absolute;
+  	top:170px;
+	left: 70px;
+}
+div#referencia1{
+	position: absolute;
+	width: 900px;
+  	top:230px;
+	left: 70px;	
+}
+div#referencia2{
+	position: absolute;
+	width: 900px;
+  	top:280px;
+	left: 70px;	
+}
+div#referencia3{
+	position: absolute;
+	width: 900px;
+  	top:350px;
+	left: 70px;	
+}
+div#referencia4{
+	position: absolute;
+	width: 900px;
+  	top:400px;
+	left: 70px;	
+}
+div#referencia5{
+	position: absolute;
+	width: 900px;
+  	top:430px;
+	left: 70px;	
+}
+div#referencia6{
+	position: absolute;
+	width: 900px;
+  	top:480px;
+	left: 70px;	
+}
+div#referencia7{
+	position: absolute;
+	width: 900px;
+  	top:510px;
+	left: 70px;	
+}
+div#texto-bajo{
+	position: absolute;
+  	top:630px;
+	left: 90px;	
+}
+label#texto-bold{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 18px;
+}
+label#texto-bold2{
+	font-family: "OptaneBold";
+	color: #25346f;
+	width: 290px;
+    height: 130px;
+	font-size: 15px;
+}
+label#numero{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #1C408A;
+	width: 290px;
+    height: 130px;
+	font-size: 16px;
+}
+label#texto-regular{
+	font-family: "OptaneRegular";
+	font: bolder;
+	color: #5C5455;
+	width: 290px;
+    height: 130px;
+	font-size: 16px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:610px;
+	left: 900px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}

@@ -1,0 +1,178 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel1.png);
+}
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+
+div#marco-oestrogel{
+	width: 330px;
+    height: 100px;
+	margin-top: 210px;
+	margin-left: 600px;
+	position:absolute;
+}
+div#marco-pop{
+	width: 10px;
+  height: 10px;
+	margin-top: 210px;
+	margin-left: 923px;
+	position:absolute;
+}
+div#marco-pop2{
+	width: 10px;
+    height: 10px;
+	margin-top: 440px;
+	margin-left: 790px;
+	position:absolute;
+}
+div#marco-pop3{
+	width: 10px;
+    height: 10px;
+	margin-top: 440px;
+	margin-left: 815px;
+	position:absolute;
+}
+label#pop1{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 15px;
+}
+label#pop2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 30px;
+}
+
+img#oestrogel{
+	width: 330px;
+    height: 100px;
+}
+
+/*texto*/
+div#renglon1{
+	margin-top: 350px;
+	margin-left: 600px;
+	position:absolute;
+}
+/*La terapia&para un*/
+label#letra1{
+	font-family: "Montserrat-Light";
+	color: #543CA8;
+	width: 240px;
+    height: 100px;
+	font-size: 35px;
+}
+div#renglon2{
+	margin-top: 390px;
+	margin-left: 600px;
+	position:absolute;
+}
+/*más eficaz&y segura*/
+label#letra2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 45px;
+}
+div#renglon3{
+	margin-top: 440px;
+	margin-left: 600px;
+	position:absolute;	
+}
+div#renglon3-1{
+	margin-top: 450px;
+	margin-left: 840px;
+	position:absolute;	
+}
+div#renglon4{
+	margin-top: 495px;
+	margin-left: 600px;
+	position:absolute;	
+}
+label#letra3{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 290px;
+    height: 130px;
+	font-size: 45px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  margin-top: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

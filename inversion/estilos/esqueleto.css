@@ -1,0 +1,11 @@
+div#marco-{
+	position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+label#letra-{
+	font-family: ClementePDai-Regular;
+	font-size: 15px;
+	color: #7D7B6E;	
+}

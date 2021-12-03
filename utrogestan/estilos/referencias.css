@@ -1,0 +1,172 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-LtCn";
+  src: url("../fuentes/HelveticaNeueLTPro-LtCn.otf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fuentes/Montserrat-Bold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fuentes/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fuentes/MyriadPro-Regular.otf");
+}
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/utrogestan2.png);
+}
+
+div#Arriba{
+	/*border: 3px solid blue;*/
+	width: 950px;
+  	height: 630px;
+	margin-top: 40px;
+	margin-left: 30px;
+	position:absolute;
+	text-align: justify;
+}
+div#referencia1{
+	position: absolute;
+	top:130px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia2{
+	position: absolute;
+	top:175px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia3{
+	position: absolute;
+	top:225px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia4{
+	position: absolute;
+	top:255px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia5{
+	position: absolute;
+	top:285px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia6{
+	position: absolute;
+	top:315px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia7{
+	position: absolute;
+	top:345px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia8{
+	position: absolute;
+	top:390px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia9{
+	position: absolute;
+	top:450px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia10{
+	position: absolute;
+	top:500px;
+	left: 30px;
+	text-align: justify-all;
+}
+div#referencia11{
+	position: absolute;
+	top:530px;
+	left: 30px;
+	text-align: justify-all;
+}
+label#numero{
+	font-family: "Montserrat-Bold";
+	font-size: 18px;
+	color: #DB437B;
+}
+label#texto-azul{
+	font-family: "Montserrat-Light";
+	font-size: 16px;
+	color: #005490;
+}
+div#logo-utrogestan{
+	position: absolute;
+  	top:0px;
+	left: 390px;
+}
+img#logo-utrogestan{
+	width: 210px;
+	height: 100px;
+}
+div#marco-layer-utrogestan{
+	margin-top: 620px;
+	margin-left: 350px;
+	position:absolute;
+}
+button#layer-utrogestan2{
+    width:360px;
+    height:50px;
+	border-width: 0px;
+	border-radius: 15px 15px 15px 15px;
+	background: #E5ACC4;
+	white-space: normal;
+}
+button#layer-utrogestan2:focus {
+	outline:0 !important;
+}
+label#letra-bold-layer{
+	font-family: "Montserrat-Bold";
+	font: bolder;
+	color: #DE407A;
+	font-size:16px;
+}
+label#letra-light-layer{
+	font-family: "Montserrat-Light";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:16px;
+}
+label#letra-regular-layer{
+	font-family: "Montserrat-Regular";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:16px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:640px;
+	left: 880px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}

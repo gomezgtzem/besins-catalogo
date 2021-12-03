@@ -1,0 +1,488 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-LtCn";
+  src: url("../fuentes/HelveticaNeueLTPro-LtCn.otf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fuentes/Montserrat-Bold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fuentes/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fuentes/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url("../fuentes/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fuentes/OpenSans-Bold.ttf");
+}
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/utrogestan2.png);
+}
+
+div#Arriba{
+	/*border: 3px solid blue;*/
+	width: 950px;
+  	height: 630px;
+	margin-top: 40px;
+	margin-left: 30px;
+	position:absolute;
+}
+/*INICIO-ENCABEZADO*/
+div#logo-utrogestan{
+	position: absolute;
+  	top:0px;
+	left: 390px;
+}
+img#logo-utrogestan{
+	width: 210px;
+	height: 100px;
+}
+div#cuadro-texto{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	top: 80px;
+	left: 190px;
+	text-align: center;
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 600px;
+	height: 40px;
+	top: 30px;
+	left: 0px;
+}
+div#linea2{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	top: 50px;
+	left: 100px;
+}
+label#letra-regular{
+	font-family: "Montserrat-Regular";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:18px;
+}
+label#letra-semibold{
+	font-family: "Montserrat-SemiBold";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 18px;
+}
+label#super-semibold{
+	font-family: "Montserrat-SemiBold";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 12px;
+	vertical-align: super;
+}
+label#letra-light{
+	font-family: "Montserrat-Light";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 18px;
+}
+/*FIN-ENCABEZADO*/
+
+/*Layer Fertilidad*/
+div#marco-layer1{
+	margin-top: 100px;
+	margin-left: -150px;
+	position:absolute;
+}
+button#layer-fertilidad{
+    width:170px;
+    height:40px;
+	color: #FFFFFF;
+	border-width: 0px;
+	border-radius: 0px 30px 30px 0px;
+	background: #F2AB57;
+	white-space: normal;
+	box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+label#letra-semibold2{
+	font-family: "Montserrat-SemiBold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 23px;
+}
+label#letra-light2{
+	font-family: "Montserrat-Light";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 23px;
+}
+div#flecha-rosa{
+	position: absolute;
+	top:150px;
+	left: -150px;
+}
+img#flecha-rosa{
+	width:170px;
+	height:180px;
+}
+div#texto-linea1-prevencion{
+	margin-top: 140px;
+	margin-left: -115px;
+	position:absolute;
+}
+div#texto-linea1-prevencionP{
+	margin-top: 155px;
+	margin-left: -25px;
+	position:absolute;
+}
+div#texto-linea2-prevencion{
+	margin-top: 225px;
+	margin-left: -115px;
+	position:absolute;
+}
+div#texto-linea3-prevencion{
+	margin-top: 252px;
+	margin-left: -95px;
+	position:absolute;
+}
+div#texto-linea4-prevencion{
+	margin-top: 275px;
+	margin-left: -105px;
+	position:absolute;
+}
+div#texto-linea5-prevencion{
+	margin-top: 288px;
+	margin-left: -98px;
+	position:absolute;
+}
+div#texto-linea6-prevencion{
+	margin-top: 298px;
+	margin-left: -93px;
+	position:absolute;
+}
+label#numero44{
+	font-family: "MyriadPro-Bold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 80px;
+}
+label#porcentaje{
+	font-family: "MyriadPro-Bold";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 25px;
+	vertical-align: super;
+}
+label#reduccion{
+	font-family: "MyriadPro-Bold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 22px;
+}
+label#partos{
+	font-family: "MyriadPro-Bold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 14px;
+}
+label#prematuros{
+	font-family: "MyriadPro-Bold";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 15px;
+}
+label#antesde{
+	font-family: "OpenSans-Bold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 11px;
+}
+label#semanas{
+	font-family: "OpenSans-Bold";
+	font: bolder;
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size: 11px;
+}
+/*fin layer preparto*/
+
+/*layer dosis*/
+div#marco-layer2{
+	margin-top: 290px;
+	margin-left: -150px;
+	position:absolute;
+}
+button#layer-dosis{
+    width:130px;
+    height:40px;
+	color: #FFFFFF;
+	border-width: 0px;
+	border-radius: 0px 30px 30px 0px;
+	background: #F2AB57;
+	white-space: normal;
+	box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+div#texto-linea1-dosis{
+	margin-top: 350px;
+	margin-left: -120px;
+	position:absolute;
+}
+div#texto-linea2-dosis{
+	margin-top: 370px;
+	margin-left: -120px;
+	position:absolute;
+}
+div#texto-linea3-dosis{
+	margin-top: 390px;
+	margin-left: -120px;
+	position:absolute;
+}
+div#texto-linea4-dosis{
+	margin-top: 410px;
+	margin-left: -120px;
+	position:absolute;
+}
+div#texto-linea5-dosis{
+	margin-top: 430px;
+	margin-left: -120px;
+	position:absolute;
+}
+div#utrogestan1-linea1{
+	position: absolute;
+	top:170px;
+	left: -120px;
+}
+div#utrogestan1-linea2{
+	position: absolute;
+	top:190px;
+	left: -120px;
+}
+div#utrogestan2-linea1{
+	position: absolute;
+	top:230px;
+	left: -120px;
+}
+div#utrogestan2-linea2{
+	position: absolute;
+	top:250px;
+	left: -120px;
+}
+div#cajas-blister{
+	position: absolute;
+	top:290px;
+	left: 100px;
+}
+img#cajas-blister{
+	width:400px;
+	height:214px;
+}
+div#texto-blister{
+	position: absolute;
+	top:420px;
+	left: 160px;	
+}
+div#texto-bliste2{
+	position: absolute;
+	top:270px;
+	left: 290px;	
+}
+label#helva{
+	font-family: "HelveticaNeueLTPro-LtCn"
+	color:#3C3C3B;
+	font-size: 7px;
+}
+label#bold-rosa{
+	font-family:"Montserrat-Bold";
+	color: #DB437B;
+	font-size: 15px;
+}
+label#light-azul{
+	font-family:"Montserrat-Light";
+	color: #005490;
+	font-size: 15px;
+}
+label#light-azul2{
+	font-family:"Montserrat-Light";
+	color: #005490;
+	font-size: 14px;
+}
+label#bold-azul{
+	font-family:"Montserrat-Bold";
+	color: #005490;
+	font-size: 14px;
+}
+div#marco-layer-utrogestan{
+	margin-top: 590px;
+	margin-left: 280px;
+	position:absolute;
+}
+button#layer-utrogestan2{
+    width:360px;
+    height:50px;
+	border-width: 0px;
+	border-radius: 15px 15px 15px 15px;
+	background: #E5ACC4;
+	white-space: normal;
+}
+button#layer-utrogestan2:focus {
+	outline:0 !important;
+}
+
+label#letra-bold-layer{
+	font-family: "Montserrat-SemiBold";
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:18px;
+}
+label#letra-light-layer{
+	font-family: "Montserrat-Light";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:18px;
+}
+label#letra-regular-layer{
+	font-family: "Montserrat-Regular";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size:18px;
+}
+div#bebe{
+	position: absolute;
+  	top:-70px;
+	left: 160px;
+}
+img#bebe{
+	width: 633px;
+	height: 700px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:640px;
+	left: 870px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}
+div#marco-pop{
+	top: 31px;
+	left: 370px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "Montserrat-SemiBold";
+	vertical-align: super;
+	color: #DE407A;
+	font-size: 10px;
+}
+label#pop2{
+	font-family: "Montserrat-Light";
+	vertical-align: super;
+	color: #005490;
+	font-size: 10px;
+}
+div#marco-pop2{
+	top: 190px;
+	left: 218px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop3{
+	top: 250px;
+	left: 278px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop4{
+	top: 430px;
+	left: 78px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop5{
+	top: 20px;
+	left: 375px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop6{
+	top: 40px;
+	left: 734px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop7{
+	top: 120px;
+	left: 422px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop8{
+	top: 100px;
+	left: 726px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+div#marco-pop9{
+	top: 175px;
+	left: 465px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}

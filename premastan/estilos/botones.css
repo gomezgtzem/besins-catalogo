@@ -1,0 +1,268 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light.ttf");
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+div#logo-bienestar{
+	/*border: 3px solid orange;*/
+	width:80px;
+	height:80px; 
+	top: 635px;
+	left: 35px;
+	position:absolute;
+}
+img#bienestar{
+	width: 90px;
+	height: 82px;
+}
+
+div#limite{
+	position:absolute;
+	width: 30px;
+    height:748px;
+	top: 0px;
+	left: 1024px;
+	/*background-color: yellow;*/
+}
+
+div#Botones{
+	width: 1000px;
+    height: 55px;
+	top: 675px;
+	position:absolute;
+}
+
+div#marco-control{
+	margin-top: 605px;
+	margin-left: 350px;
+	position:absolute;
+}
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light");
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold");
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular");
+}
+
+div#limite{
+	position:absolute;
+	width: 20px;
+    height:748px;
+	top: 0px;
+	left: 1024px;
+	/*background-color: yellow;*/
+}
+
+div#Botones{
+	/*border: 3px solid yellow;*/
+    height: 30px;
+    width: 740px;
+	top: 690px;
+	left: 140px;
+	position:absolute;
+}
+div#marco-home{
+	left: 30px;
+	position:absolute;
+}
+img#home{
+	width:25px;
+    height:25px;
+}
+div#marco-pipe{
+	top: 1px;
+	left: 50px;
+	position:absolute;
+}
+img#pipe{
+	height:25px;
+}
+div#marco-atras{
+	left: 70px;
+	position:absolute;
+}
+img#atras{
+	width:9px;
+    height:25px;
+}
+div#marco-adelante{
+	left: 90px;
+	position:absolute;
+}
+img#adelante{
+	width:9px;
+    height:25px;
+}
+div#marco-objetivo{
+	left: 120px;
+	position:absolute;
+}
+button#boton-objetivo{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:90px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 18px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-objetivo:focus {
+	outline:0 !important;	
+}
+button#boton-objetivo:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}
+div#marco-tratamiento{
+	left: 220px;
+	position:absolute;
+}
+button#boton-tratamiento{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:110px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 20px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-tratamiento:focus {
+	outline:0 !important;
+}
+button#boton-tratamiento:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}
+div#marco-beneficios{
+	left: 340px;
+	position:absolute;
+}
+button#boton-beneficios{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:100px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 20px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-beneficios:focus {
+	outline:0 !important;
+}
+button#boton-beneficios:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}
+div#marco-dosis{
+	left: 450px;
+	position:absolute;
+}
+button#boton-dosis{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:60px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 20px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-dosis:focus {
+	outline:0 !important;
+}
+button#boton-dosis:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}
+div#marco-aplicacion{
+	left: 520px;
+	position:absolute;
+}
+button#boton-aplicacion{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:100px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 20px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-aplicacion:focus {
+	outline:0 !important;
+}
+button#boton-aplicacion:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}
+div#marco-referencias{
+	left: 630px;
+	position:absolute;
+}
+button#boton-referencias{
+	font-size: 14px;
+    font-family: "Comfortaa-Light";
+    width:110px;
+    height:26px;
+	border: 3px solid #B4136F;
+	color: #FFFFFF;
+	border-radius: 20px;
+	background: linear-gradient(#C71477,#D71580,#ED1A85);
+}
+button#boton-referencias:focus {
+	outline:0 !important;
+}
+button#boton-referencias:active {
+	font-size: 14px;
+    font-family: "Comfortaa-Bold";
+	color: #000000;
+	background: rgb(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #A9055A;
+}

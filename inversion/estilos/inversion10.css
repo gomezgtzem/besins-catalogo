@@ -1,0 +1,319 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Hv";
+  src: url("../fuentes/HelveticaNeueLTStd-Hv.otf");
+}
+
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion6.png);
+}
+div#marco-imagen-inversion{
+	position:absolute;
+	top: 40px;
+	left: 375px;	
+}
+img#imagen-inversion{
+	width: 320px;
+	height: 100px;
+}
+div#marco-fondo-blanco{
+	position:absolute;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	width: 560px;
+	height: 415px;
+	top: 205px;
+	left: 170px;
+}
+
+div#marco-subtitulos{
+	position:absolute;
+	top: 610px;
+	left: 130px;
+	width: 660px;
+	height: 130px;	
+}
+
+div#marco-renglon1{
+	position:absolute;
+	width: 580px;
+	top: 20px;
+	left: 60px;	
+}
+
+div#marco-renglon2{
+	position:absolute;
+	width: 580px;
+	top: 45px;
+	left: 125px;	
+}
+
+div#marco-renglon3{
+	position:absolute;
+	width: 580px;
+	top: 70px;
+	left: 55px;	
+}
+
+div#marco-renglon4{
+	position:absolute;
+	width: 580px;
+	top: 96px;
+	left: 46px;	
+}
+
+div#marco-renglon4-iz{
+	position:absolute;
+	width: 580px;
+	top: 95.7px;
+	left: 10px;	
+}
+
+label#letra{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 18.5px;
+	color: #FFFFFF;
+}
+
+label#letra-mayuscula{
+	font-family: ClementePDai-Regular;
+	font-size: 21px;
+	color: #FFFFFF;
+}
+
+div#marco-titulo-rojo{
+	position:absolute;
+	background: linear-gradient(to right,#C01818,#C01818,#D31419);
+	width: 530px;
+	height: 45px;
+	top: 10px;
+	left: 15px;
+	border-bottom: 2px solid black;
+	border-right: 1px solid #AC6E6F;
+}
+
+div#marco-fondo-gris-negro{
+	position:absolute;
+	background: linear-gradient(to right,#E2D9D4,#CFC8C8,#948D8D,#454545,#454545);
+	width: 539px;
+	height: 53px;
+	top: 7px;
+	left: 11px;
+}
+
+div#marco-titulo-rojo-inferior{
+	position:absolute;
+	background-color: #881711;
+	width: 530px;
+	height: 5px;
+	top: 50px;
+	left: 15px; 
+}
+
+div#marco-titulo-rojo-superior-uno{
+	position:absolute;
+	background-color: #932A2D;
+	width: 530px;
+	height: 2px;
+	top: 10px;
+	left: 15px;
+}
+div#marco-titulo-rojo-superior-dos{
+	position:absolute;
+	background-color: #E42624;
+	width: 530px;
+	height: 2px;
+	top: 12px;
+	left: 15px;
+}
+
+label#letra-blanca{
+	font-family: ClementePDai-Regular;
+	font-size: 23px;
+	color: #FFFFFF;
+}
+
+label#letra-roja{
+	font-family: ClementePDai-Regular;
+	font-size: 20px;
+	color: #C0282D;
+}
+
+label#letra-gris{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 20px;
+	color: #7D7B6E;
+	
+}
+label#letra-gris-porcentajes{
+	font-family: MinionPro-Regular;
+	font-size: 22.5px;
+	color: #7D7B6E;	
+}
+
+div#marco-tabla-renglon1{
+	position:absolute;
+	width: 200px;
+	top:20px;
+	left:40px;
+}
+
+div#marco-tabla-renglon1-der{
+	position:absolute;
+	width: 200px;
+	top:20px;
+	left:380px;
+}
+
+div#marco-tabla-renglon2{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 60px;
+	left: 15px;
+	background: linear-gradient(to right,#FFFFFF,#F4F4F4,#E8E8E8,#E0E0E0,#D3D3D5,#E0E0E0,#E8E8E8,#F4F4F4,#FFFFFF);
+}
+div#marco-letra{
+	position:absolute;
+	top: 3px;
+	left: 20px;
+	width: 400px;	
+}
+div#marco-letra-derecha{
+	position:absolute;
+	top: 3px;
+	left: 435px;
+	width: 400px;	
+}
+div#marco-letra-derecha2{
+	position:absolute;
+	top: 3px;
+	left: 428px;
+	width: 400px;	
+}
+
+div#marco-tabla-renglon3{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 90px;
+	left: 15px;
+}
+
+div#marco-tabla-renglon4{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 122px;
+	left: 15px;
+}
+div#marco-tabla-renglon5{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 154px;
+	left: 15px;
+	background: linear-gradient(to right,#FFFFFF,#F4F4F4,#E8E8E8,#E0E0E0,#D3D3D5,#E0E0E0,#E8E8E8,#F4F4F4,#FFFFFF);
+}
+div#marco-tabla-renglon6{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 186px;
+	left: 15px;
+}
+div#marco-tabla-renglon7{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 218px;
+	left: 15px;
+	background: linear-gradient(to right,#FFFFFF,#F4F4F4,#E8E8E8,#E0E0E0,#D3D3D5,#E0E0E0,#E8E8E8,#F4F4F4,#FFFFFF);
+}
+div#marco-tabla-renglon8{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 250px;
+	left: 15px;
+}
+div#marco-tabla-renglon9{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 282px;
+	left: 15px;
+	background: linear-gradient(to right,#FFFFFF,#F4F4F4,#E8E8E8,#E0E0E0,#D3D3D5,#E0E0E0,#E8E8E8,#F4F4F4,#FFFFFF);
+}
+div#marco-tabla-renglon10{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 314px;
+	left: 15px;
+}
+div#marco-tabla-renglon11{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 346px;
+	left: 15px;
+}
+div#marco-tabla-renglon12{
+	position:absolute;
+	width: 530px;
+	height: 30px;
+	top: 378px;
+	left: 15px;
+}
+
+div#marco-tira-gris{
+	position:absolute;
+	top: 130px;
+	left: 0px;
+}
+
+img#tira-gris{
+	width: 520px;
+	height: 68px;
+}
+
+div#marco-beneficios-resultados{
+	position:absolute;
+	top:134px;
+	left:60px;
+}
+
+label#letra-beneficios{
+	font-family: ClementePDai-Regular;
+	font-size: 38px;
+	color: #9E2038;
+}
+div#marco-pop{
+	top: 134px;
+	left: 428px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "ClementePDai-Regular";
+	vertical-align: super;
+	color: #9E2038;
+	width: 290px;
+    height: 130px;
+	font-size: 18px;
+}

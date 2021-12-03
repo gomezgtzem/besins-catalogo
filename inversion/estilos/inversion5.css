@@ -1,0 +1,331 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MinionPro-Regular";
+  src: url("../fuentes/MinionPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Hv";
+  src: url("../fuentes/HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+@font-face {
+  font-family: "Smooth-Circulars";
+  src: url("../fuentes/Smooth-Circulars.otf");
+}
+
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion4.png);
+}
+
+img#acento{
+	width: 15px;
+	height: 6px;
+}
+
+div#acento-termo{
+	position:absolute;
+	top: 51px;
+	left: 158px;
+}
+
+div#acento-energetico{
+	position:absolute;
+	top: 51px;
+	left: 129px;
+}
+
+
+
+div#figura{
+	position:absolute;
+	top: 200px;
+	left: 120px;
+	width: 500px;
+	height: 540px;
+}
+
+div#petalo1{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 255px;
+	height: 255px;
+	border: 3px solid #FFFFFF;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+div#petalo2{
+	position:absolute;
+	top: 0px;
+	left: 258px;
+	width: 255px;
+	height: 255px;
+	border: 3px solid #FFFFFF;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+div#petalo3{
+	position:absolute;
+	top: 258px;
+	left: 0px;
+	width: 255px;
+	height: 255px;
+	border: 3px solid #FFFFFF;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+div#petalo4{
+	position:absolute;
+	top: 258px;
+	left: 258px;
+	width: 255px;
+	height: 255px;
+	border: 3px solid #FFFFFF;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+div#marco-imagen-inversion{
+	position:absolute;
+	top: 105px;
+	left: 225px;	
+}
+
+img#imagen-inversion{
+	width: 300px;
+	height: 90px;
+}
+
+div#tira-gris{
+	position:absolute;
+	top: 30px;
+	left: 200px;	
+}
+
+img#tira-gris{
+	width: 320px;
+	height: 55px;
+}
+
+label#titulo{
+	font-family: Smooth-Circulars;
+	font-size: 22px;
+	color: #FFFFFF;	
+}
+
+label#letra-blanca{
+	font-family: MinionPro-Regular;
+	font-size: 17px;
+	color: #FFFFFF;	
+}
+
+label#letra-blanca-bold{
+	font-family: HelveticaNeueLTStd-Hv;
+	font-size: 15.5px;
+	font-weight: bolder;
+	color: #FFFFFF;	
+}
+
+div#titulo-tira-gris{
+	position:absolute;
+	top: 35px;
+	left: 260px;	
+}
+
+label#titulo-tira-gris{
+	font-family: Smooth-Circulars;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #A01D27;	
+}
+
+div#nutricional{
+	position:absolute;
+	top: 55px;
+	left: 40px;
+}
+
+div#nutricional-renglon1{
+	position:absolute;
+	top: 105px;
+	left: 65px;
+}
+div#nutricional-renglon2{
+	position:absolute;
+	top: 125px;
+	left: 73px;
+}
+div#nutricional-renglon3{
+	position:absolute;
+	top: 145px;
+	left: 40px;
+}
+div#nutricional-renglon4{
+	position:absolute;
+	top: 165px;
+	left: 80px;
+}
+
+div#antioxidante{
+	position:absolute;
+	top: 55px;
+	left: 25px;
+}
+div#antioxidante-renglon1{
+	position:absolute;
+	top: 105px;
+	left: 30px;
+}
+div#antioxidante-renglon2{
+	position:absolute;
+	top: 125px;
+	left: 75px;
+}
+div#antioxidante-renglon3{
+	position:absolute;
+	top: 145px;
+	left: 60px;
+}
+div#antioxidante-renglon4{
+	position:absolute;
+	top: 165px;
+	left: 30px;
+}
+div#antioxidante-renglon5{
+	position:absolute;
+	top: 185px;
+	left: 50px;
+}
+
+
+div#termogenica{
+	position:absolute;
+	top: 55px;
+	left: 25px;
+}
+div#termogenica-renglon1{
+	position:absolute;
+	top: 105px;
+	left: 52px;
+}
+div#termogenica-renglon2{
+	position:absolute;
+	top: 125px;
+	left: 55px;
+}
+div#termogenica-renglon3{
+	position:absolute;
+	top: 145px;
+	left: 49px;
+}
+div#termogenica-renglon4{
+	position:absolute;
+	top: 165px;
+	left: 63px;
+}
+div#termogenica-renglon5{
+	position:absolute;
+	top: 185px;
+	left: 55px;
+}
+div#energetico{
+	position:absolute;
+	top: 55px;
+	left: 25px;
+}
+div#energetico-renglon1{
+	position:absolute;
+	top: 105px;
+	left: 25px;
+}
+div#energetico-renglon2{
+	position:absolute;
+	top: 125px;
+	left: 30px;
+}
+div#energetico-renglon3{
+	position:absolute;
+	top: 145px;
+	left: 55px;
+}
+div#energetico-renglon4{
+	position:absolute;
+	top: 165px;
+	left: 40px;
+}
+div#marco-pop{
+	top: 38px;
+	left: 450px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "ClementePDai-Regular";
+	color: #A01D27;
+	width: 290px;
+    height: 130px;
+	font-size: 12px;
+}
+/*pop caso especial*/
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  height: 30px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  top:20px;
+  left: -150px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

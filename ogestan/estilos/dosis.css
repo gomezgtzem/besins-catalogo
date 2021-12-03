@@ -1,0 +1,209 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+@font-face {
+  font-family: "OptaneBold";
+  src: url("../fuentes/OptaneBold.ttf");
+}
+@font-face {
+  font-family: "OptaneBoldItalic";
+  src: url("../fuentes/OptaneBoldItalic.ttf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/ogestan3.png);
+}
+div#encabezado{
+	/*border: 3px solid green;*/
+	width: 780px;
+  	height: 80px;
+	margin-top: 10px;
+	margin-left: 220px;
+	position:absolute;
+}
+div#texto-encabezado{
+	position: absolute;
+  	top:15px;
+	left: 10px;
+}
+div#logo-ogestan{
+	position: absolute;
+  	top:5px;
+	left: 555px;
+}
+img#logo-ogestan{
+	width: 210px;
+	height: 45px;
+}
+label#letra-bold{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 35px;
+}
+div#Arriba{
+	/*border: 3px solid green;*/
+	width: 950px;
+  	height: 610px;
+	margin-top: 60px;
+	margin-left: 25px;
+	position:absolute;
+}
+div#cuadro-contenido{
+	position: absolute;
+  	top:165px;
+	left: 50px;
+}
+img#marco{
+	width: 200px;
+	height: 238px;
+}
+div#texto-titulo{
+	position: absolute;
+  	top:15px;
+	left: 30px;
+}
+div#texto-acido{
+	position: absolute;
+  	top:60px;
+	left: 25px;
+}
+div#texto-omega{
+	position: absolute;
+  	top:77px;
+	left: 25px;
+}
+div#texto-yodo{
+	position: absolute;
+  	top:94px;
+	left: 25px;
+}
+div#texto-vitaminae{
+	position: absolute;
+  	top:112px;
+	left: 25px;
+}
+div#texto-vitaminad3{
+	position: absolute;
+  	top:129px;
+	left: 25px;
+}
+div#texto-bajo1{
+	position: absolute;
+  	top:160px;
+	left: 25px;
+}
+div#texto-bajo2{
+	position: absolute;
+  	top:180px;
+	left: 25px;
+}
+div#texto-bajo3{
+	position: absolute;
+  	top:200px;
+	left: 30px;
+}
+label#texto-amarillo{
+	font-family: "OptaneBold";
+	color: #ccd42e;
+	width: 290px;
+    height: 130px;
+	font-size: 23px;
+}
+label#texto-azul{
+	font-family: "OptaneRegular";
+	color: #425d94;
+	width: 290px;
+    height: 130px;
+	font-size: 15px;
+}
+label#texto-azul-bold{
+	font-family: "OptaneBold";
+	color: #425d94;
+	width: 290px;
+    height: 130px;
+	font-size: 15px;
+}
+label#texto-azul-bold-italic{
+	font-family: "OptaneBoldItalic";
+	color: #425d94;
+	width: 290px;
+    height: 130px;
+	font-size: 15px;
+}
+div#caja-pastillas{
+	position: absolute;
+  	top:5px;
+	left: 240px;
+}
+img#caja-pastillas{
+	width: 400px;
+	height: 302px;
+}
+div#cuadro-ingesta{
+	position: absolute;
+  	top:5px;
+	left: 530px;
+}
+img#cuadro-ingesta{
+	width: 200px;
+	height: 165px;
+}
+div#capsula-aldia{
+	position: absolute;
+  	top:85px;
+	left: 550px;
+}
+img#capsula-aldia{
+	width: 150px;
+	height: 75px;
+}
+div#canguro{
+	position: absolute;
+  	top:135px;
+	left: 690px;
+}
+img#canguro{
+	width: 300px;
+	height: 480px;
+}
+div#texto-pie{
+	width: 600px;
+	position: absolute;
+  	top:380px;
+	left: 150px;
+}
+div#logo-oms{
+	position: absolute;
+  	top:10px;
+	left: 30px;
+}
+img#logo-oms{
+	width: 130px;
+	height: 135px;
+}
+label#letra-bold2{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:560px;
+	left: 865px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}
+

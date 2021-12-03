@@ -1,0 +1,215 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel4.png);
+}
+/*Div Marco Arriba*/
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+  height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+div#cuadro-texto{
+  width: 900px;
+  margin-top: 130px;
+  margin-left: 40px;
+  position:absolute;
+}
+label#encabezado{
+  font-family: "Montserrat-SemiBold";
+  font-weight: bolder;
+  color: #04A292;
+  font-size: 25px;
+}
+label#numero{
+  font-family: "Montserrat-SemiBold";
+  color: #04A292;
+  font-size: 12px;
+}
+label#texto-normal{
+  font-family: "HelveticaNeueLTPro-Roman";
+  color: #6F6F6E;
+  text-align: justify-all;
+  height: 663px;
+  font-size: 11px;
+}
+/*referencia 1FDA*/
+div#marco-oestrogel{
+	margin-top: 75px;
+	margin-left: 570px;
+  position:absolute;
+}
+img#oestrogel1{
+	margin-top:75px;
+	margin-left: 400px;
+	width: 170px;
+  height: 50px;
+  position:absolute;
+}
+
+/*La terapia más eficaz y segura 2,3*/
+div#renglon1{
+	margin-top: 120px;
+	margin-left: 320px;
+  position:absolute;
+}
+/*La terapia & para un*/
+label#letra1{
+	font-family: "Montserrat-Light";
+	color: #543CA8;
+	width: 240px;
+    height: 100px;
+	font-size: 20px;
+}
+/*para un climaterio feliz*/
+div#renglon2{
+	margin-top: 140px;
+	margin-left: 360px;
+  position:absolute;
+}
+/*más eficaz y segura 2,3 */
+label#letra2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+}
+/*climaterio feliz*/
+label#letra3{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+}
+img#oestrogel{
+  width: 90px;
+  height: 40px;
+}
+.marco-beneficios{
+  margin-top: 205px;
+  margin-left: 557px;
+  position:absolute;
+}
+div#marco-pop1{
+	width: 10px;
+    height: 10px;
+	margin-top: 90px;
+	margin-left: 630px;
+	position:absolute;
+}
+label#pop1{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 9px;
+	vertical-align:super;
+}
+div#marco-pop2{
+	width: 10px;
+    height: 10px;
+	margin-top: 100px;
+	margin-left: 690px;
+	position:absolute;
+	vertical-align:super;
+}
+div#marco-pop3{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 702px;
+	position:absolute;
+}
+.pop2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 9px;
+  vertical-align:super;
+}
+.pop3{
+	font-family: "Montserrat-SemiBold";
+	color: #6F6F6E;
+	width: 290px;
+    height: 130px;
+	font-size: 9px;
+  vertical-align:super;
+}
+/*Popups JavaScript*/
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

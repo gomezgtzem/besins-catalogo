@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.ttf");
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan2.png);
+}
+
+div#arriba{
+	position:absolute;
+	width: 900px;
+    height:600px;
+	top: 35px;
+	left: 10px;
+}
+
+
+div#titulo{
+	width: 700px;
+	height: 145px;
+	position:absolute;
+	top:;
+	left:150px;
+}
+
+div#marco-titulo-p1{
+	position:absolute;
+	top:;
+	left:255px;	
+}
+div#marco-titulo-p2{
+	position:absolute;
+	top:75px;
+	left:120px;	
+}
+
+label#titulo{
+	font-family: Dulcelin;
+	font-size: 55px;
+	color: #E04669;
+}
+div#marco-pop1{
+	width:15px;
+	height:15px; 
+	top: 100px;
+	left: 748px;
+	position:absolute;
+}
+label#textopop{
+	font-family: "Comfortaa-Bold";
+	width: 10px;
+	height: 10px;
+	color: 	#E04669;
+	font-size: 17px;
+	vertical-align: super;
+}

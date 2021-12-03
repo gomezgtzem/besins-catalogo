@@ -1,0 +1,132 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion3.png);
+}
+div#cuadro{
+	position:absolute;	
+	width: 930px;
+	height: 500px;
+	top: 170px;
+	left: 50px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+}
+div#marco-tira-roja{
+	position:absolute;
+	top: -40px;
+	left: -110px;
+}
+img#tira-roja{
+	width: 350px;
+	height: 75px;
+}
+div#marco-referencias{
+	position:absolute;
+	top:-30px;
+	left:5px;
+}
+label#letra-referencias{
+	font-family: ClementePDai-Regular;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+div#marco-texto-referencias{
+	width: 900px;
+	height: 450px;
+	position:absolute;
+	top:60px;
+	left:5px;
+	text-align: justify-all;
+}
+div#referencia1{
+	position:absolute;
+	top: 10px;
+	left:30px;	
+}
+div#referencia2{
+	position:absolute;
+	top: 30px;
+	left:30px;	
+}
+div#referencia3{
+	position:absolute;
+	top: 65px;
+	left:30px;	
+}
+div#referencia4{
+	position:absolute;
+	top: 100px;
+	left:30px;	
+}
+div#referencia5{
+	position:absolute;
+	top: 135px;
+	left:30px;	
+}
+div#referencia6{
+	position:absolute;
+	top: 170px;
+	left:30px;	
+}
+div#referencia7{
+	position:absolute;
+	top: 205px;
+	left:30px;	
+}
+div#referencia8{
+	position:absolute;
+	top: 240px;
+	left:30px;	
+}
+div#referencia9{
+	position:absolute;
+	top: 255px;
+	left:30px;	
+}
+div#referencia10{
+	position:absolute;
+	top: 275px;
+	left:30px;	
+}
+div#referencia11{
+	position:absolute;
+	top: 310px;
+	left:30px;	
+}
+div#referencia12{
+	position:absolute;
+	top: 325px;
+	left:30px;	
+}
+div#referencia13{
+	position:absolute;
+	top: 360px;
+	left:30px;	
+}
+div#referencia14{
+	position:absolute;
+	top: 375px;
+	left:30px;	
+}
+label#numero{
+	font-family: ClementePDai-Regular;
+	font-size: 11px;
+	color: #980715;
+}
+label#texto{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 11px;
+	color: #6F6F6E;	
+}

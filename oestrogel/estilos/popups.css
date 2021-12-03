@@ -1,0 +1,121 @@
+div#marco-pop1{
+	width: 10px;
+    height: 10px;
+	margin-top: 90px;
+	margin-left: 630px;
+	position:absolute;
+}
+label#pop1{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 9px;
+	vertical-align:super;
+}
+div#marco-pop2{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 690px;
+	position:absolute;
+}
+div#marco-pop3{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 702px;
+	position:absolute;
+}
+label#pop2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 12px;
+}
+/*Popups JavaScript*/
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -150px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/***************************************popups*********************************************
+1. Archer DF. Estradiol Gel: a new option in hormone replacement therapy. OBG Management. 2004:46-66.
+2. Modena MG, et al. New evidence regarding hormone replacement therapies is urgently required transdermal postmenopausal hormone therapy differs from
+oral hormone therapy in risks and benefits. Maturitas. 2005;52(1):1-10.
+3. Archer. DF, et al. Transdermal estradiol gel for the treatment of symptomatic postmenopausal women. Menopause. 2012;19(6):622-9.
+4. Panay N, et al. The 2013 British Menopause Society & Women’s Health Concern. Recommendations on hormone replacement therapy. Menopause Int. 2013;19(2):59-68.
+5. The NAMS 2017 Hormone Therapy Position Statement Advisory Panel. The 2017 hormone therapy position statement of the North American Menopause
+Society. Menopause. 2017; 24(7): 728-753.
+6. Liu B, et al. Gallbladder disease and use of transdermal versus oral hormone replacement therapy in postmenopausal women: prospective cohort study.
+BMJ. 2008;10:1-9.
+7. Carranza-Liras S, et. al. Tiempo transcurrido a partir de la menopausia y su repercusión en el deterioro cognitivo. Ginel Obstet Mex. 2018; 86 (5): 289-96.
+8. Travassos de Figueiredo Alves et al. Comparison of gel and patch estradiol replacement in Brazil, a tropical country. Maturitas. 2000;36(1):69-74.
+9. Naunton M et al. Estradiol gel: review of the pharmacology, pharmacokinetics, efficacy, and safety in menopausal women. Menopause. 2006;13(3):517-27.
+10. Castelo-Branco et al. Clinical efficacy of estradiol transdermal system in the treatment of hot fashes in postmenopausal women. Res Rep Transderm Drug
+Deliv. 2014;3:1–8.
+11. Bergendal A, et al. Riesgo de tromboembolia venosa asociada con el uso local y sistémico de terapia hormonal en mujeres peri y postmenopáusicas y en
+relación con el tipo y la vía de administración. Menopause. 2016;23(6):593-9.
+12. Cannoletta M, et al. Modification of blood pressure in postmenopausal women: role of hormone replacement therapy. Int J Womens Health. 2014; 11 (6):
+745 – 57.
+13. Ichikawa J, et al. Different effects of transdermal and oral hormone replacement therapy on the renin-angiotensin system, plasma bradykinin level, and blood
+pressure of normotensive postmenopausal women. Am J Hypertens. 2006; 19 (7):744 – 9.
+14. Información para prescribir de Oestrogel®.
+15. Vázquez Martínez JE, et al. Climaterio y menopausia. Guía de Práctica Clínica. COMEGO 2015. Pp: 147-78.
+16. Canonico M, et al. Obesity and risk of venous thromboembolism among postmenopausal women: differential impact of hormone therapy by route of
+estrogen administration. The ESTHER Study. J Thromb Haemost. 2006;4(6):1259-65.
+17. Baber RJ, et al. 2016 IMS Recommendations on women’s midlife health and menopause hormone therapy. Climacteric 2016;19(2):109-150.
+18. Información para prescribir de Utrogestan®
+*/

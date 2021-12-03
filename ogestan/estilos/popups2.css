@@ -1,0 +1,108 @@
+label#pop{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 14px;
+	vertical-align: super;
+}
+label#pop2{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 14px;
+	vertical-align: super;
+}
+label#pop3{
+	vertical-align: super;
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 14px;
+}
+/*YODO*/
+div#marco-pop{
+	position:absolute;
+	top: 90px;
+	left: 285px;	
+}
+div#marco-pop2{
+	position:absolute;
+	top: 90px;
+	left: 300px;	
+}
+div#marco-pop3{
+	position:absolute;
+	top: 155px;
+	left: 170px;	
+}
+div#marco-pop4{
+	position:absolute;
+	top: 155px;
+	left: 184px;	
+}
+div#marco-pop5{
+	position:absolute;
+	top: 240px;
+	left: 75px;	
+}
+div#marco-pop6{
+	position:absolute;
+	top: 240px;
+	left: 90px;	
+}
+/*ÁCIDO FÓLICO*/
+div#marco-pop7{
+	position:absolute;
+	top: 72px;
+	left: 180px;	
+}
+div#marco-pop8{
+	position:absolute;
+	top: 140px;
+	left: 323px;	
+}
+div#marco-pop9{
+	position:absolute;
+	top: 210px;
+	left: 244px;	
+}
+/*OMEGA 3*/
+div#marco-pop10{
+	position:absolute;
+	top: 58px;
+	left: 397px;	
+}
+div#marco-pop11{
+	position:absolute;
+	top: 130px;
+	left: 168px;	
+}
+div#marco-pop12{
+	position:absolute;
+	top: 203px;
+	left: 146px;	
+}
+div#marco-pop13{
+	position:absolute;
+	top: 278px;
+	left: 223px;	
+}
+/*VITAMINA D3*/
+div#marco-pop14{
+	position:absolute;
+	top: 50px;
+	left: 280px;	
+}
+div#marco-pop15{
+	position:absolute;
+	top: 158px;
+	left: 63px;	
+}
+div#marco-pop16{
+	position:absolute;
+	top: 233px;
+	left: 345px;	
+}
+/*VITAMINA E*/
+div#marco-pop17{
+	position:absolute;
+	top: 179px;
+	left: 236px;	
+}

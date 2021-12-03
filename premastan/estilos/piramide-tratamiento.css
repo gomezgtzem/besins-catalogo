@@ -1,0 +1,566 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+
+div#contenido{
+position:absolute;
+top: 155px;
+left: 70px;
+width: 680px;
+height: 460px;
+}
+
+div#marco-mas{
+	position:absolute;
+	top: 238px;
+	left: 275px;
+	width: 30px;
+	height: 30px;
+}
+
+button#boton-mas{
+	font-family: Comfortaa-Bold;
+	text-indent: -2px;
+	font-size: 40px;
+	color: #FFFFFF;
+    width:30px;
+    height:30px;
+	border: 0px;
+	background: transparent;
+}
+
+button#boton-mas:focus {
+	outline:0 !important;
+}
+
+div#area-dibujo{
+position:absolute;
+top: 155px;
+left: 70px;
+width: 435px;
+height: 450px;	
+}
+
+div#area-dibujo2{
+position:absolute;
+top: 1px;
+left: 1px;
+width: 675px;
+height: 450px;
+}
+
+div#contorno-rosa{
+	position:absolute;
+	top: 55px;
+	left: 655px;
+	width: 180px; 
+    height: 60px; 
+	border: .7px solid #C06D84;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+div#fondo-rosa{
+	position:absolute;
+	top: 59px;
+	left: 659px;
+	width: 174px; 
+    height: 54px;
+	background-color: #F1668B;
+	border: 0px;
+	border-radius: 20px;
+	
+}
+
+div#borde-superior-curvo{
+	width: 40px;
+	height: 50px;
+	position:absolute;
+	top: 80px;
+	left: 836px;
+	border-top: 3px solid #387E6B;
+	border-top-right-radius: 9px;	
+}
+div#borde-lateral-curvo{
+	width: 20px;
+	height: 348px;
+	position:absolute;
+	top: 80px;
+	left: 855px;
+	border-right: 3px solid #387E6B;
+	border-bottom-right-radius: 9px;
+	border-top-right-radius: 9px;
+}
+div#borde-inferior-curvo{
+	width: 432px;
+	height: 20px;
+	position:absolute;
+	top: 405px;
+	left: 446px;
+	border-bottom: 3px solid #387E6B;
+	border-bottom-right-radius: 9px;
+}
+
+div#marco-imagen-premastan-grande{
+	position:absolute;
+	top:50px;
+	left:300px;
+	
+}
+
+img#imagen-premastan-grande{
+	width: 300px;
+	height: 85px;
+}
+
+div#marco-meses{
+	position:absolute;
+	top: 105px;
+	left: 340px;
+	width: 350px;
+	height: 50px;
+
+}
+
+label#letra-meses{
+	font-family: Comfortaa-Bold;
+	font-size: 34px;
+	color: #D994A0;	
+}
+
+div#marco-mas-grande{
+	position:absolute;
+	top: 230px;
+	left: 435px;
+	width: 350px;
+	height: 50px;
+
+}
+
+label#letra-mas-grande{
+	font-family: Comfortaa-Bold;
+	font-size: 50px;
+	color: #D994A0;	
+}
+
+div#marco-aines{
+	position:absolute;
+	top: 275px;
+	left: 395px;
+	width: 350px;
+	height: 50px;
+
+}
+
+label#letra-aines{
+	font-family: Comfortaa-Bold;
+	font-size: 35px;
+	color: #D994A0;	
+}
+
+div#marco-disminucion{
+	position:absolute;
+	top: 328px;
+	left: 414px;
+	width: 350px;
+	height: 50px;
+
+}
+
+div#marco-disminucion2{
+	position:absolute;
+	top: 338px;
+	left: 408px;
+	width: 350px;
+	height: 50px;
+
+}
+
+div#marco-de{
+	position:absolute;
+	top: 378px;
+	left: 429px;
+	width: 350px;
+	height: 50px;
+
+}
+
+div#marco-casos{
+	position:absolute;
+	top: 388px;
+	left: 429px;
+	width: 350px;
+	height: 50px;
+
+}
+
+label#letra-disminucion{
+	font-family: Comfortaa-Bold;
+	font-size: 9px;
+	color: #D994A0;	
+}
+
+div#marco-porcentaje{
+	position:absolute;
+	top: 355px;
+	left: 420px;
+	width: 350px;
+	height: 50px;
+
+}
+
+label#letra-porcentaje{
+	font-family: Comfortaa-Bold;
+	font-size: 26px;
+	color: #D994A0;	
+}
+
+div#marco-linea1{
+	position:absolute;
+	top: 235px;
+	left: 248px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea1{
+	height: 2px;
+	width: 85px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea2{
+	position:absolute;
+	top: 306px;
+	left: 212px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea2{
+	height: 2px;
+	width: 155px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea3{
+	position:absolute;
+	top: 327px;
+	left: 201px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea3{
+	height: 2px;
+	width: 178px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea4{
+	position:absolute;
+	top: 463px;
+	left: 135px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea4{
+	height: 3px;
+	width: 310px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea5{
+	position:absolute;
+	top: 485px;
+	left: 122px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea5{
+	height: 2px;
+	width: 335px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea6{
+	position:absolute;
+	top: 566px;
+	left: 81px;
+	height: 2px;
+	width: 58px;
+}
+
+hr#linea6{
+	height: 2px;
+	width: 418px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-resultado{
+	position:absolute;
+	top:68px;
+	left:680px;
+	width: 140px;
+}
+
+label#resultado{
+	font-family: Comfortaa-Regular;
+	font-size: 16px;
+	color: #FFFFFF;	
+}
+
+div#marco-letra-tratamiento{
+	position:absolute;
+	top:87px;
+	left:678px;
+	width: 140px;
+}
+
+label#letra-tratamiento{
+	font-family: Comfortaa-Regular;
+	font-size: 16px;
+	color: #FFFFFF;	
+}
+
+div#marco-estilo{
+	position:absolute;
+	top: 202px;
+	left: 270px;
+	width: 40px;
+	height: 40px;
+}
+
+label#estilo{
+	font-family: Comfortaa-Light;
+	font-size: 11px;
+	color: #FFFFFF;	
+}
+
+div#marco-vida{
+	position:absolute;
+	top: 218px;
+	left: 268px;
+	width: 50px;
+	height: 40px;
+}
+
+label#vida{
+	font-family: Comfortaa-Light;
+	font-size: 11px;
+	color: #FFFFFF;	
+}
+
+div#marco-bienestar{
+	position:absolute;
+	top: 275px;
+	left: 250px;
+	width: 60px;
+	height: 40px;
+}
+
+label#bienestar{
+	font-family: Comfortaa-Light;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+
+div#marco-emocional{
+	position:absolute;
+	top: 293px;
+	left: 245px;
+	width: 60px;
+	height: 40px;
+}
+
+label#emocional{
+	font-family: Comfortaa-Light;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+
+div#marco-control-sintomatico{
+	position:absolute;
+	top: 360px;
+	left: 225px;
+	width: 150px;
+}
+
+label#control-sintomatico{
+	font-family: Comfortaa-Light;
+	font-size: 24px;
+	color: #FFFFFF;	
+}
+
+div#marco-sintomatico{
+	position:absolute;
+	top: 390px;
+	left: 200px;
+	width: 150px;
+}
+
+label#sintomatico{
+	font-family: Comfortaa-Light;
+	font-size: 24px;
+	color: #FFFFFF;	
+}
+
+div#marco-dolor{
+	position:absolute;
+	top: 420px;
+	left: 211.5px;
+	width: 150px;
+}
+
+label#dolor{
+	font-family: Comfortaa-Light;
+	font-size: 24px;
+	color: #FFFFFF;	
+}
+
+div#marco-diagnostico{
+	position:absolute;
+	top: 505px;
+	left: 178px;
+	width: 150px;
+}
+
+label#diagnostico{
+	font-family: Comfortaa-Light;
+	font-size: 29px;
+	color: #FFFFFF;	
+}
+
+div#marco-cancer{
+	position:absolute;
+	top: 540px;
+	left: 130px;
+	width: 350px;
+}
+
+label#cancer{
+	font-family: Comfortaa-Light;
+	font-size: 20px;
+	color: #FFFFFF;	
+}
+
+label#cancer-bold{
+	font-family: Comfortaa-Bold;
+	font-size: 20px;
+	color: #FFFFFF;	
+}
+
+div#marco-imagen-premastan1{
+	position:absolute;
+	top:15px;
+	left:280px;
+}
+
+img#imagen-premastan1{
+	width: 303px;
+	height: 54px;
+}
+
+div#marco-imagen-premastan2{
+	position:absolute;
+	top:180px;
+	left:345px;
+}
+
+img#imagen-premastan2{
+	width: 203px;
+	height: 34px;
+}
+
+div#marco-imagen-progesterona{
+	position:absolute;
+	top:67px;
+	left:353px;
+}
+
+img#imagen-progesterona{
+	width: 200px;
+	height: 33px;
+}
+
+div#marco-imagen-progesterona2{
+	position:absolute;
+	top:215px;
+	left:405px;
+}
+
+img#imagen-progesterona2{
+	width: 120px;
+	height: 20px;
+}
+
+div#marco-rombo{
+	position:absolute;
+	top:68px;
+	left:570px;
+}
+
+img#imagen-rombo{
+	width: 100px;
+	height: 36px;
+
+}
+
+div#marco-imagen-comego{
+	position:absolute;
+	top:215px;
+	left:635px;
+}
+
+img#imagen-comego{
+	width: 135px;
+	height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+

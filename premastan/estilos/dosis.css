@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan5.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 850px;
+    height: 560px;
+	top: 30px;
+	left: 125px;
+	position: absolute;
+}
+div#marco-premastan{
+	/*border: 3px solid blue;*/
+	height: 70px;
+    width: 200px;
+	top: 0px;
+	left: 500px;
+	position:absolute
+}
+img#premastanclave{
+	width: 200px;
+	height: 70px;
+	position:absolute
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	height:25px; 
+	width:400px;
+	top: 100px;
+	left: 390px;
+	position:absolute;
+}
+label#texto1{
+	font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 23px;
+}
+div#linea2{
+	/*border: 3px solid green;*/
+	height:40px; 
+	width:250px;
+	top: 135px;
+	left: 470px;
+	position:absolute;
+}
+label#texto2{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 18px;
+}
+label#texto3{
+	font-family: "Dulcelin";
+	color: 	#E98798;
+	font-size: 45px;
+}
+div#parrafo{
+	/*border:3px solid black;*/
+	height:60px; 
+	width:500px;
+	top: 230px;
+	left: 300px;
+	position:absolute;
+}
+div#punto{
+	top: 0px;
+	left: 0px;
+	position:absolute;
+}
+img#punto{
+	width: 10px;
+	height: 10px;
+	position:absolute
+}
+div#p1{
+	left: 20px;
+	position:absolute;
+}
+label#textop1{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 18px;
+}
+label#textop2{
+	font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 20px;
+}
+div#tubo-texto{
+	/*border:3px solid pink;*/
+	height:280px; 
+	width:780px;
+	top: 260px;
+	left: 0px;
+	position:absolute;
+}
+div#tubo-premastan{
+	/*border:3px solid blue;*/
+	height:290px; 
+	width:390px;
+	position:absolute;	
+}
+img#cajaytubo{
+	width: 300;
+	height: 200;
+	position:absolute;
+}
+div#pieImagen{
+	/*border:3px solid yellow;*/
+	top: 260px;
+	left: 160px;
+	height:15px; 
+	width:190px;
+	position:absolute;
+}
+label#pieImagen{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 11px;	
+}
+div#cuadro-dosis{
+	/*border:3px solid green;*/
+	top: 50px;
+	left: 370px;
+	height:200px; 
+	width:390px;
+	position:absolute;	
+}
+div#mariposa1{
+	/*border: 3px solid orange;*/
+	width:40px;
+	height:25px; 
+	top: 25px;
+	left: -20px;
+	position:absolute;
+}
+img#mariposa1{
+	width: 30px;
+    height: 25px;
+}
+div#marco-titulo-dosis{
+	/*border: 3px solid purple;*/
+	width:95px;
+	height:25px; 
+	top: 28px;
+	left: 20px;
+	position:absolute;
+}
+label#titulo-dosis{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#D46179;
+	font-size: 25px;	
+}
+div#marco-pop4{
+	top: 32px;
+	left: 115px;
+	position:absolute;
+}
+div#marco-pop6{
+	top: 32px;
+	left: 130px;
+	position:absolute;
+}
+label#textopop{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#D46179;
+	font-size: 14px;
+	vertical-align: super;
+}
+div#parrafo-dosis{
+	/*border:3px solid black;*/
+	height:120px; 
+	width:380px;
+	top: 70px;
+	left: 0px;
+	position:absolute;
+}
+div#lineap1{
+	/*border: 3px solid green;*/
+	height:25px; 
+	width:350px;
+	left: 15px;
+	position:absolute;
+}div#lineap2{
+	/*border: 3px solid green;*/
+	height:25px; 
+	width:350px;
+	top: 30px;
+	left: 15px;
+	position:absolute;
+}div#lineap3{
+	/*border: 3px solid green;*/
+	width:350px;
+	top: 60px;
+	left: 15px;
+	position:absolute;
+}div#lineap4{
+	/*border: 3px solid green;*/
+	height:25px; 
+	width:350px;
+	top: 85px;
+	left: 15px;
+	position:absolute;
+}
+label#textopd1{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 20px;	
+}
+label#textopd2{
+	font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 21px;	
+}

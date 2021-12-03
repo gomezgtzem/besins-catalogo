@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/fondo1.png);
+}
+
+#marco-letra{
+	width: 450px;
+    height: 280px;
+	margin-top: 60px;
+	margin-left: 470px;
+	/*background-color: red;*/
+	position:absolute;
+}
+
+#marco-imagenes{
+	width: 550px;
+    height: 230px;
+	margin-top: 365px;
+	margin-left: 380px;
+	/*background-color: yellow;*/
+	position:absolute;
+}
+#marco-botones{
+	width: 230px;
+    height: 100px;
+	margin-top: 630px;
+	margin-left: 230px;
+	/*background-color: green;*/
+	position:absolute;
+}
+
+.marco-letra1{
+	margin-top: 31px;
+	margin-left: 26px;
+	position:absolute;
+}
+.marco-letra2{
+	margin-top: 75px;
+	margin-left: 25px;
+	position:absolute;
+}
+.marco-letra3{
+	margin-top: 145px;
+	margin-left: 25px;
+	position:absolute;
+}
+.marco-letra4{
+	margin-top: 205px;
+	margin-left: 28px;
+	position:absolute;
+}
+.letra1{
+	font-family: "Montserrat-SemiBold";
+	color: 	#106BA3;
+	font-size: 51px;
+}
+.letra2{
+	font-family: "Montserrat-Light";
+	color: 	#AAAAAC;
+	font-size: 64px;
+}
+.letra3{
+	font-family: "Montserrat-SemiBold";
+	color: 	#106BA3;
+	font-size: 51px;
+}
+
+.letra4{
+	font-family: "Montserrat-SemiBold";
+	color: 	#AAAAAC;
+	font-size: 48px;
+}
+
+.marco-utrogestan{
+	margin-top: 30px;
+	margin-left: 10px;
+	position:absolute
+}
+.marco-oestrogel{
+	margin-top: 40px;
+	margin-left: 215px;
+	position:absolute
+}
+.marco-premastan{
+	margin-top: 45px;
+	margin-left: 395px;
+	position:absolute
+}
+.marco-ogestan{
+	margin-top: 140px;
+	margin-left: 100px;
+	position:absolute
+}
+.marco-inversion{
+	margin-top: 145px;
+	margin-left: 290px;
+	position:absolute
+}
+
+.marco-home{
+	margin-top: 60px;
+	margin-left: 30px;
+	position:absolute
+}
+.marco-pipe{
+	margin-top: 60px;
+	margin-left: 60px;
+	position:absolute
+}
+.marco-atras{
+	margin-top: 30px;
+	margin-left: 80px;
+	position:absolute
+}
+.marco-adelante{
+	margin-top: 60px;
+	margin-left: 113px;
+	position:absolute
+}
+.home{
+	width: 30px;
+    height: 30px;
+}
+.pipe{
+	width: 15px;
+    height: 32px;
+}
+.atras{
+	width: 55px;
+    height: 60px;
+}
+.adelante{
+	width: 25px;
+    height: 30px;
+}
+
+

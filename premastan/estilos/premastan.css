@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan1.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 440px;
+    height: 300px;
+	top: 120px;
+	left: 530px;
+	position: absolute;
+}
+div#marco-premastan{
+	height: 90px;
+    width: 410px;
+	position:absolute
+}
+img#premastan{
+	width: 410px;
+	height: 90px;
+	position:absolute
+}
+div#linea1{
+	width: 450px;
+    height: 280px;
+	top: 120px;
+	/*background-color: red;*/
+	position:absolute;
+}
+div#linea2{
+	width: 450px;
+    height: 280px;
+	top: 155px;
+	/*background-color: red;*/
+	position:absolute;
+}
+div#linea3{
+	width: 450px;
+    height: 280px;
+	top: 210px;
+	/*background-color: red;*/
+	position:absolute;
+}
+div#linea4{
+	width: 450px;
+    height: 280px;
+	top: 250px;
+	/*background-color: red;*/
+	position:absolute;
+}
+label#texto1{
+	font-family: "Comfortaa-Regular";
+	color: 	#4F3D3E;
+	font-size: 30px;
+}
+label#texto2{
+	font-family: "Comfortaa-Bold";
+	color: 	#E98798;
+	font-size: 30px;
+}
+label#texto3{
+	font-family: "Dulcelin";
+	color: 	#D46179;
+	font-size: 40px;
+}
+label#texto4{
+	font-family: "Comfortaa-Bold";
+	color: 	#4E3A3C;
+	font-size: 30px;
+}
+

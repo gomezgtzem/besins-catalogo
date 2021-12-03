@@ -1,0 +1,460 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<LINK REL=StyleSheet HREF="../estilos/formula.css" TYPE="text/css" MEDIA=screen>
+	<LINK REL=StyleSheet HREF="../estilos/botones.css" TYPE="text/css" MEDIA=screen>
+	<LINK REL=StyleSheet HREF="../estilos/popups.css" TYPE="text/css" MEDIA=screen>
+	<LINK REL=StyleSheet HREF="../estilos/popups2.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+<script src="../scripts/CLMStatereporter.js" type="text/javascript"></script>
+<script src="../scripts/popups.js" type="text/javascript"></script>
+<script src="../scripts/mostrar-ocultar.js" type="text/javascript"></script>
+<div id="encabezado">
+	<div id="texto-encabezado"><label id="letra-bold">Complementa su alimentación con</label></div>
+	<div id="logo-ogestan"><img id="logo-ogestan" src="../imagenes/ogestan.png"></div>
+</div>
+<div id="Arriba">
+	<div id="texto-titulo1"><label id="letra-bold2">Fórmula especialmente diseñada con cinco</label></div>
+	<div id="texto-titulo2"><label id="letra-bold2">micronutrientes esenciales para antes, durante y después del embarazo </label></div>
+	
+	<div id="logo-oms"><img id="logo-oms" src="../imagenes/oms.png"></div>
+	<div id="logo-besins"><img id="logo-besins" src="../imagenes/besins.png"></div>
+</div>
+
+	<div id="marco-yodo-circular">
+		<a href="javascript:marcoYodo();">
+			<button  id="yodo-boton-circular">  </button>
+		</a>
+	</div>
+	
+	<div id="marco-acidofolico-circular">
+		<a href="javascript:marcoAcido();">
+			<button  id="acidofolico-boton-circular">  </button>
+		</a>
+	</div>
+	
+	<div id="marco-omega3-circular">
+		<a href="javascript:marcoOmega();">
+			<button  id="omega3-boton-circular">  </button>
+		</a>
+	</div>
+	
+	<div id="marco-vitaminaD-circular">
+		<a href="javascript:marcoVitaminaD();">
+			<button  id="vitaminaD-boton-circular">  </button>
+		</a>
+	</div>
+	
+	<div id="marco-vitaminaE-circular">
+		<a href="javascript:marcoVitaminaE();">
+			<button  id="vitaminaE-boton-circular">  </button>
+		</a>
+	</div>
+
+
+<div id="yodo" style="visibility: hidden;">
+	<div id="yodo-blanco">
+		<div id="yodo-borde-verde-punteado">
+		</div>
+		<div id="yodo-puntos-verdes">
+			<div id="yodo-punto1">
+			</div>
+			<div id="yodo-punto2">
+			</div>
+			<div id="yodo-punto3">
+			</div>
+		</div>
+		<div id="yodo-letras">
+			<div id="yodo-parrafo1">
+				<label id="yodo-texto-azul"> El &nbsp; yodo &nbsp; es &nbsp; un &nbsp; nutriente esencial </label> <label id="yodo-texto-gris"> requerido </label> <br>
+				<label id="yodo-texto-gris"> para &nbsp; la &nbsp; síntesis &nbsp; (producción) &nbsp; de &nbsp; hormonas </label> <br>
+				<label id="yodo-texto-gris"> tiroideas,importantes &nbsp; para regular el </label> <label id="yodo-texto-azul"> crecimiento, </label> <br>
+				<label id="yodo-texto-azul"> desarrollo y metabolismo en el bebé. </label>
+			</div>
+			<div id="marco-pop">
+				<div class="popup" onclick="myFunction1()">
+					<label id="pop">1,</label>
+					<span class="popuptext" id="myPopup1">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+			<div id="marco-pop2">
+				<div class="popup" onclick="myFunction2()">
+					<label id="pop">2</label>
+					<span class="popuptext" id="myPopup2">Donnay S, et al. Suplementación con yodo durante el embarazo y la lactancia. Toma de posición del grupo de trabajo de trastornos relacionados con la deficiencia de yodo y disfunción tiroidea de la Sociedad de Endocrinología y Nutrición. Endocrinol Nutr. 2014;61(1):27-34</span>
+				</div>
+			</div>
+			<div id="yodo-parrafo2">
+				<label id="yodo-texto-gris"> Contribuye con el &nbsp; adecuado </label> <label id="yodo-texto-azul"> desarrollo cerebral </label> <br>
+				<label id="yodo-texto-azul"> y psicomotor de bebé. </label>
+			</div>
+			<div id="marco-pop3">
+				<div class="popup" onclick="myFunction1a()">
+					<label id="pop">1,</label>
+					<span class="popuptext" id="myPopup1a">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+			<div id="marco-pop4">
+				<div class="popup" onclick="myFunction2a()">
+					<label id="pop">2</label>
+					<span class="popuptext" id="myPopup2a">Donnay S, et al. Suplementación con yodo durante el embarazo y la lactancia. Toma de posición del grupo de trabajo de trastornos relacionados con la deficiencia de yodo y disfunción tiroidea de la Sociedad de Endocrinología y Nutrición. Endocrinol Nutr. 2014;61(1):27-34</span>
+				</div>
+			</div>
+			<div id="yodo-parrafo3">
+				<label id="yodo-texto-azul"> Ayuda a cubrir los requerimientos </label> <label id="yodo-texto-gris"> incrementados </label> <br>
+				<label id="yodo-texto-gris"> de la mamá &nbsp; </label> <label id="yodo-texto-azul"> durante el &nbsp; embarazo y el periodo </label> <br>
+				<label id="yodo-texto-azul"> posparto.</label>
+			</div>
+			<div id="marco-pop5">
+				<div class="popup" onclick="myFunction1b()">
+					<label id="pop">1,</label>
+					<span class="popuptext" id="myPopup1b">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+			<div id="marco-pop6">
+				<div class="popup" onclick="myFunction2b()">
+					<label id="pop">2</label>
+					<span class="popuptext" id="myPopup2b">Donnay S, et al. Suplementación con yodo durante el embarazo y la lactancia. Toma de posición del grupo de trabajo de trastornos relacionados con la deficiencia de yodo y disfunción tiroidea de la Sociedad de Endocrinología y Nutrición. Endocrinol Nutr. 2014;61(1):27-34</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="yodo-tira-verde">
+		<div id="yodo-tira-verde-oscura">
+		</div>
+	</div>
+	<div id="imagen-yodo">
+		<img src="../imagenes/yodo.png"/>
+	</div>
+	<div id="yodo-subtitulo">
+		<label id="yodo-subtitulo"> 150 µg </label>
+	</div>
+	
+	<div id="marco-yodo-circular2">
+		<a href="javascript:marcoYodo();">
+			<button  id="yodo-boton-circular2">  </button>
+		</a>
+	</div>
+</div>
+
+<div id="acidofolico" style="visibility: hidden;" >
+	<div id="acidofolico-blanco">
+		<div id="acidofolico-borde-verde-punteado">
+		</div>
+		<div id="acidofolico-puntos-verdes">
+			<div id="acidofolico-punto1">
+			</div>
+			<div id="acidofolico-punto2">
+			</div>
+			<div id="acidofolico-punto3">
+			</div>
+		</div>
+		<div id="acidofolico-letras">
+			<div id="acidofolico-parrafo1">
+				<label id="acidofolico-texto-gris"> El &nbsp; </label> <label id="acidofolico-texto-azul"> ácido &nbsp; fólico </label> <label id="acidofolico-texto-gris"> en &nbsp; el periodo gestional </label> <br>
+				<label id="acidofolico-texto-azul"> es clave para un &nbsp; desarrollo fetal adecuado </label> <br>
+				<label id="acidofolico-texto-azul"> y una vida saludable. </label>
+			</div>
+			<div id="marco-pop7">
+				<div class="popup" onclick="myFunction3()">
+					<label id="pop">3</label>
+					<span class="popuptext" id="myPopup3">Castaño E, et al. Folatos y Embarazo, conceptos actuales. ¿Es necesaria una suplementación con ácido fólico? Rev Chil Pediatr. 2017;88(2):199-206.</span>
+				</div>
+			</div>
+			<div id="acidofolico-parrafo2">
+				<label id="acidofolico-texto-gris"> Antes &nbsp; del &nbsp; embarazo &nbsp; </label> <label id="acidofolico-texto-azul"> reduce &nbsp; el riesgo </label> <br>
+				<label id="acidofolico-texto-azul"> de defectos del tubo neural en el feto. </label>
+			</div>
+			<div id="marco-pop8">
+				<div class="popup" onclick="myFunction4()">
+					<label id="pop">4</label>
+					<span class="popuptext" id="myPopup4">Iñesta A. Ácido fólico y embarazo. Farmacia Profesional. 2006;20(7):36-37.</span>
+				</div>
+			</div>
+			<div id="acidofolico-parrafo3">
+				<label id="acidofolico-texto-azul"> Si no se ingiere &nbsp; puede &nbsp; causar en el bebé </label> <br>
+				<label id="acidofolico-texto-azul"> anemia y bajo peso al nacer.</label>
+			</div>
+			<div id="marco-pop9">
+				<div class="popup" onclick="myFunction5()">
+					<label id="pop">5</label>
+					<span class="popuptext" id="myPopup5">Manjarrés LM, et al. Ingesta de hierro y folatos durante el embarazo y su relación con indicadores bioquímicos maternos. Latreia. 2012;25(3):194-202.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="acidofolico-tira-verde">
+		<div id="acidofolico-tira-verde-oscura">
+		</div>
+	</div>
+	<div id="imagen-acidofolico">
+		<img src="../imagenes/acidofolico.png"/>
+	</div>
+	<div id="acidofolico-subtitulo">
+		<label id="acidofolico-subtitulo"> 400 µg </label>
+	</div>
+	<div id="marco-acidofolico-circular2">
+		<a href="javascript:marcoAcido();">
+			<button  id="acidofolico-boton-circular2">  </button>
+		</a>
+	</div>
+</div>
+
+<div id="omega3" style="visibility: hidden;">
+	<div id="omega3-blanco">
+		<div id="omega3-borde-verde-punteado">
+		</div>
+		<div id="omega3-puntos-verdes">
+			<div id="omega3-punto1">
+			</div>
+			<div id="omega3-punto2">
+			</div>
+			<div id="omega3-punto3">
+			</div>
+			<div id="omega3-punto4">
+			</div>			
+		</div>
+		<div id="omega3-letras">
+			<div id="omega3-parrafo1">
+				<label id="omega3-texto-azul"> Durante &nbsp; el &nbsp; embarazo &nbsp; se &nbsp; requiere &nbsp; una </label> <br>
+				<label id="omega3-texto-azul"> suplementación &nbsp; de &nbsp; Omega-3 </label> <label id="omega3-texto-gris"> para favorecer </label> <br>
+				<label id="omega3-texto-gris"> el adecuado desarrollo fetal, cerebral y visual. </label>
+			</div>
+			<div id="marco-pop10">
+				<div class="popup" onclick="myFunction6()">
+					<label id="pop2">6</label>
+					<span class="popuptext" id="myPopup6">Coletta JM, et al. Omega-3 fatty acids and pregnancy. Rev Obstet Gynecol. 2010;3(4):163-717.</span>
+				</div>
+			</div>
+			<div id="omega3-parrafo2">
+				<label id="omega3-texto-azul"> Disminuye &nbsp; el &nbsp; riesgo de desarrollar alergias </label> <br>
+				<label id="omega3-texto-gris"> durante la infancia. </label>
+			</div>
+			<div id="marco-pop11">
+				<div class="popup" onclick="myFunction6a()">
+					<label id="pop2">6</label>
+					<span class="popuptext" id="myPopup6a">Coletta JM, et al. Omega-3 fatty acids and pregnancy. Rev Obstet Gynecol. 2010;3(4):163-717.</span>
+				</div>
+			</div>
+			<div id="omega3-parrafo3">
+				<label id="omega3-texto-gris"> Puede &nbsp; </label> <label id="omega3-texto-azul"> ayudar &nbsp; a prevenir el riesgo de sufrir </label> <br>
+				<label id="omega3-texto-azul"> parto prematuro. </label>
+			</div>
+			<div id="marco-pop12">
+				<div class="popup" onclick="myFunction6b()">
+					<label id="pop">6</label>
+					<span class="popuptext" id="myPopup6b">Coletta JM, et al. Omega-3 fatty acids and pregnancy. Rev Obstet Gynecol. 2010;3(4):163-717.</span>
+				</div>
+			</div>
+			<div id="omega3-parrafo4">
+				<label id="omega3-texto-azul"> Su &nbsp; deficiencia &nbsp; está &nbsp; asociada a problemas </label> <br>
+				<label id="omega3-texto-azul"> de desarrollo neurológico. </label>
+			</div>
+			<div id="marco-pop13">
+				<div class="popup" onclick="myFunction6c()">
+					<label id="pop">6</label>
+					<span class="popuptext" id="myPopup6c">Coletta JM, et al. Omega-3 fatty acids and pregnancy. Rev Obstet Gynecol. 2010;3(4):163-717.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="omega3-tira-verde">
+		<div id="omega3-tira-verde-oscura">
+		</div>
+	</div>
+	<div id="imagen-omega3">
+		<img id="imagen-omega3" src="../imagenes/omega3.png"/>
+	</div>
+	<div id="omega3-subtitulo">
+		<label id="omega3-subtitulo"> 144 mg </label>
+	</div>
+	<div id="marco-omega3-circular2">
+		<a href="javascript:marcoOmega();">
+			<button  id="omega3-boton-circular2">  </button>
+		</a>
+	</div>
+</div>
+
+<div id="vitaminaD" style="visibility: hidden;">
+	<div id="vitaminaD-blanco">
+		<div id="vitaminaD-borde-verde-punteado">
+		</div>
+		<div id="vitaminaD-puntos-verdes">
+			<div id="vitaminaD-punto1">
+			</div>
+			<div id="vitaminaD-punto2">
+			</div>
+			<div id="vitaminaD-punto3">
+			</div>			
+		</div>
+		<div id="vitaminaD-letras">
+			<div id="vitaminaD-parrafo1">
+				<label id="vitaminaD-texto-azul"> La Vitamina D es esencial en el embarazo </label> <label id="vitaminaD-texto-gris"> para la función </label> <br>
+				<label id="vitaminaD-texto-gris"> inmunológica y del sistema nervioso. </label>
+			</div>
+			<div id="marco-pop14">
+				<div class="popup" onclick="myFunction1c()">
+					<label id="pop2">1</label>
+					<span class="popuptext" id="myPopup1c">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+			<div id="vitaminaD-parrafo2">
+				<label id="vitaminaD-texto-gris"> Durante &nbsp;el &nbsp;embarazo, </label> <label id="vitaminaD-texto-azul"> el esqueleto fetal acumula calcio </label> <br>
+				<label id="vitaminaD-texto-azul"> de &nbsp;la &nbsp;reserva &nbsp;&nbsp;materna, &nbsp;mediado &nbsp;por &nbsp;Vitamina D, </label> <br> 
+				<label id="vitaminaD-texto-gris"> por &nbsp;lo &nbsp;que es &nbsp;esencial p&nbsp;ara el &nbsp;desarrollo esquelético </label> <br>
+				<label id="vitaminaD-texto-gris"> del feto. </label>
+			</div>
+			<div id="marco-pop15">
+				<div class="popup" onclick="myFunction1d()">
+					<label id="pop2">1</label>
+					<span class="popuptext" id="myPopup1d">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+			<div id="vitaminaD-parrafo3">
+				<label id="vitaminaD-texto-azul"> La &nbsp;&nbsp;&nbsp;deficiencia &nbsp;&nbsp;de &nbsp;&nbsp;Vitamina D &nbsp;&nbsp;puede &nbsp;&nbsp;resultar </label> <br>
+				<label id="vitaminaD-texto-azul"> en &nbsp;osteopenia y raquitismo &nbsp;en &nbsp;el &nbsp;bebé, </label> <label id="vitaminaD-texto-gris"> pero además </label> <br>
+				<label id="vitaminaD-texto-gris"> en bajo peso al nacer y desarrollo de alergias. </label>
+			</div>
+			<div id="marco-pop16">
+				<div class="popup" onclick="myFunction1e()">
+					<label id="pop2">1</label>
+					<span class="popuptext" id="myPopup1e">Hanson MA, et al. The International Federation of Gynecology and Obstetrics (FIGO) recommendations on adolescent, preconception, and maternal nutrition: "Think Nutrition First". Int J Gynaecol Obstet. 2015;131(4):S213-532.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="vitaminaD-tira-verde">
+		<div id="vitaminaD-tira-verde-oscura">
+		</div>
+	</div>
+	<div id="imagen-vitaminaD">
+		<img id="imagen-vitaminaD" src="../imagenes/vitaminad3.png"/>
+	</div>
+	<div id="vitaminaD-subtitulo">
+		<label id="vitaminaD-subtitulo"> 5 µg </label> <br>
+	</div>	
+	<div id="vitaminaD-subtitulo2">
+		<label id="vitaminaD-subtitulo"> equivale </label>
+	</div>	
+	<div id="vitaminaD-subtitulo3">
+		<label id="vitaminaD-subtitulo"> a 200 Ul </label>
+	</div>
+	<div id="marco-vitaminaD-circular2">
+		<a href="javascript:marcoVitaminaD();">
+			<button  id="vitaminaD-boton-circular2">  </button>
+		</a>
+	</div>
+</div>
+
+<div id="vitaminaE" style="visibility: hidden;">
+	<div id="vitaminaE-blanco">
+		<div id="vitaminaE-borde-verde-punteado">
+		</div>
+		<div id="vitaminaE-puntos-verdes">
+			<div id="vitaminaE-punto1">
+			</div>
+		</div>
+		<div id="vitaminaE-letras">
+			<div id="vitaminaE-parrafo1">
+				<label id="vitaminaE-texto-azul"> Ayuda &nbsp;a &nbsp;prevenir &nbsp; &nbsp;el &nbsp;estrés </label> <br>
+				<label id="vitaminaE-texto-azul"> oxidativo, &nbsp;&nbsp;</label> <label id="vitaminaE-texto-gris"> paso &nbsp; clave &nbsp;en&nbsp; la </label> <br>
+				<label id="vitaminaE-texto-azul"> aparición y progresión de ciertas </label> <br>
+				<label id="vitaminaE-texto-azul"> enfermedades &nbsp; cardiovasculares, </label> <br>
+				<label id="vitaminaE-texto-azul"> inflamación &nbsp;crónica&nbsp; y &nbsp;algunos </label> <br>
+				<label id="vitaminaE-texto-azul"> trastornos neurológicos. </label> <br>
+			</div>
+			<div id="marco-pop17">
+				<div class="popup" onclick="myFunction7()">
+					<label id="pop3">7</label>
+					<span class="popuptext" id="myPopup7">National Institutes of Health. Datos sobre la Vitamina E. [Internet] 2016 [Citado 23 May 2018]. Disponible en:https://ods.od.nih.gov/factsheets/VitaminE-DatosEnEspanol/</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="vitaminaE-tira-verde">
+		<div id="vitaminaE-tira-verde-oscura">
+		</div>
+	</div>
+	<div id="imagen-vitaminaE">
+		<img id="imagen-vitaminaE" src="../imagenes/vitaminae.png"/>
+	</div>
+	<div id="vitaminaE-subtitulo">
+		<label id="vitaminaE-subtitulo"> 12 mg </label> <br>
+	</div>	
+	<div id="vitaminaE-subtitulo2">
+		<label id="vitaminaE-subtitulo"> equivale </label>
+	</div>	
+	<div id="vitaminaE-subtitulo3">
+		<label id="vitaminaE-subtitulo"> a 15 Ul </label>
+	</div>
+	<div id="marco-vitaminaE-circular2">
+		<a href="javascript:marcoVitaminaE();">
+			<button  id="vitaminaE-boton-circular2">  </button>
+		</a>
+	</div>
+</div>
+
+<div id="Botones">
+
+	<div id="marco-home">
+		<a href="ogestan.html"><img id="home" src="../imagenes/home-pipe.png"></a>
+	</div>
+	
+	<div id="marco-atras">
+		<a href="javascript:history.back(-1);"><img id="atras" src="../imagenes/back.png"></a>		
+	</div>
+		
+	<div id="marco-adelante">
+		<a href="../html/dosis.html"><img id="adelante" src="../imagenes/forward.png"></a>		
+	</div>
+	
+	<div id="marco-formula">
+		<a href="../html/formula.html">
+			<button  id="boton"> Fórmula </button>
+		</a>
+	</div>
+		
+	<div id="marco-yodo">
+		<a href="javascript:marcoYodo();">
+			<button  id="boton"> Yodo </button>
+		</a>
+	</div>
+		
+	<div id="marco-acidofolico">
+		<a href="javascript:marcoAcido();">
+			<button id="boton"> Ácido Fólico </button>
+		</a>
+	</div>
+	
+	<div id="marco-omega3">
+		<a href="javascript:marcoOmega();">
+			<button id="boton"> Omega 3 </button>
+		</a>
+	</div>
+	
+	<div id="marco-vitaminad3">
+		<a href="javascript:marcoVitaminaD();">
+			<button id="boton"> Vitamina D3 </button>
+		</a>
+	</div>
+	
+	<div id="marco-vitaminae">
+		<a href="javascript:marcoVitaminaE();">
+			<button id="boton"> Vitamina E </button>
+		</a>
+	</div>
+	<div id="marco-dosis">
+		<a href="../html/dosis.html"><button id="boton"> Dosis </button></a>
+	</div>
+	<div id="marco-referencias">
+		<a href="../html/referencias.html"><button id="boton"> Referencias </button></a>
+	</div>
+	
+</div>
+		
+
+
+</body>
+</html>

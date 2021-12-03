@@ -1,0 +1,25 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+@font-face {
+  font-family: "OptaneBold";
+  src: url("../fuentes/OptaneBold.ttf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/ogestan1.png);
+}
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+

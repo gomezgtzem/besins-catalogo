@@ -1,0 +1,241 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion3.png);
+}
+
+div#cuadro{
+	position:absolute;	
+	width: 850px;
+	height: 520px;
+	top: 170px;
+	left: 100px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+}
+div#marco-tira-gris{
+	position:absolute;
+	top: 15px;
+	left: -100px;
+}
+img#tira-gris{
+	width: 680px;
+	height: 75px;
+}
+div#marco-componentes{
+	position:absolute;
+	top:25px;
+	left:-36px;
+}
+label#letra-componentes{
+	font-family: ClementePDai-Regular;
+	font: bolder;
+	font-size: 27px;
+	color: #980715;
+}
+div#imagen-luna{
+	position:absolute;
+	top: 10px;
+	left: 500px;
+}
+img#imagen-luna{
+	width: 50px;
+	height: 49px;
+}
+
+div#marco-pastilla{
+	/*border: 3px solid green;*/
+	width: 750px;
+	height: 400px;
+	position:absolute;
+	top: 90px;
+	left: 60px;
+}
+div#hierro{
+	position:absolute;
+	top: 25px;
+	left: 290px;
+}
+div#img1{
+	position:absolute;
+	top: 25px;
+	left: 310px;
+}
+img#guion1{
+	margin-top: 20px;
+	width: 10px;
+	height: 52px;
+}
+div#extracto{
+	position:absolute;
+	top: 125px;
+	left: 150px;
+}
+div#img2{
+	position:absolute;
+	top: 150px;
+	left: 215px;
+}
+img#guion2{
+	width: 41px;
+	height: 10px;
+}
+div#img3{
+	position:absolute;
+	top: 115px;
+	left: 115px;
+}
+img#uvas{
+	width: 31px;
+	height: 45px;
+}
+div#vitaminab6{
+	position:absolute;
+	top: 320px;
+	left: 120px;
+}
+div#img5{
+	position:absolute;
+	top: 320px;
+	left: 220px;
+}
+img#guion7{
+	width: 52px;
+	height: 10px;
+}
+div#cartilago{
+	position:absolute;
+	top: 60px;
+	left: 585px;
+}
+div#img7{
+	position:absolute;
+	top: 60px;
+	left: 550px;
+}
+img#guion3{
+	width: 28px;
+	height: 10px;
+}
+div#vitaminab8{
+	position:absolute;
+	top: 225px;
+	left: 100px;
+}
+div#img4{
+	position:absolute;
+	top: 225px;
+	left: 200px;
+}
+img#guion5{
+	width: 32px;
+	height: 10px;
+}
+div#cobre{
+	position:absolute;
+	top: 387px;
+	left: 225px;
+}
+div#img6{
+	position:absolute;
+	top: 340px;
+	left: 280px;
+}
+img#guion8{
+	width: 10px;
+	height: 65px;
+}
+div#vitaminab2{
+	position:absolute;
+	top: 170px;
+	left: 585px;
+}
+div#img8{
+	position:absolute;
+	top: 170px;
+	left: 545px;
+}
+img#guion4{
+	width: 30px;
+	height: 10px;
+}
+div#vitaminab5{
+	position:absolute;
+	top: 250px;
+	left: 540px;
+}
+div#img9{
+	position:absolute;
+	top: 250px;
+	left: 480px;
+}
+img#guion6{
+	width: 53px;
+	height: 10px;
+}
+div#aceite{
+	position:absolute;
+	top: 387px;
+	left: 380px;
+}
+div#img10{
+	position:absolute;
+	top: 320px;
+	left: 390px;
+}
+img#guion9{
+	width: 10px;
+	height: 62px;
+}
+div#img11{
+	position:absolute;
+	top: 385px;
+	left: 620px;
+}
+img#pez{
+	width: 35px;
+	height: 25px;
+}
+label#letra-gris{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 18px;
+	color: #6F6F6E;
+}
+div#pastilla{
+	/*border: 3px solid green;*/
+	position:absolute;
+	top: 15px;
+	left: 230px;
+}
+img#pastilla{
+	width: 330px;
+	height: 330px;
+}
+
+/*POPUP1**/
+div#marco-pop{
+	top: 24px;
+	left: 487px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "ClementePDai-Regular";
+	font: bolder;
+	color: #980715;
+	width: 290px;
+    height: 130px;
+	font-size: 18px;
+}

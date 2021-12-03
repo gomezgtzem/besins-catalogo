@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel4.png);
+}
+/*Div Marco Arriba*/
+div#Arriba{
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+div#marco-subtitulo{
+	position:absolute;
+	margin-top: 215px;
+	margin-left: 370px;
+}
+/*pop ups*/
+div#marco-pop14{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 660px;
+	position:absolute;
+}
+div#marco-pop15{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 673px;
+	position:absolute;
+}
+div#marco-pop18{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 686px;
+	position:absolute;
+}
+label#pop3{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 290px;
+    height: 130px;
+	font-size: 9px;
+}
+div#marco-pop1a{
+	margin-top: 230px;
+	margin-left: 312px;
+	position:absolute;
+}
+label#pop1a{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 5px;
+	vertical-align:super;
+}

@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+div#marco-boton-continua-turquesa{
+	width:250px;
+	height:36px;
+    margin-top: 270px;
+    margin-left: 495px;
+    position:absolute;
+}
+div#boton-turquesa{
+	position:absolute;
+}
+div#marco-titulo-boton-turquesa{
+	margin-top: 8px;
+	margin-left: 40px;
+	position:absolute;
+}
+label#titulo-boton-turquesa{
+	font-size: 14px;
+    font-family: "Montserrat-SemiBold";
+	color: #FFFFFF;
+}
+
+button#continua-turquesa{
+  width:270px;
+  height:36px;
+  border-width: 0px;
+  border-radius: 25px 30px 30px 0px;
+  background: #03AE9D;
+  white-space: normal;
+  box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+button#continua-turquesa:focus {
+	outline:0 !important;
+}
+
+div#marco-boton-continua-morado{
+	width:250px;
+	height:36px;
+    margin-top: 270px;
+    margin-left: 99px;
+    position:absolute;
+}
+div#boton-morado{
+	position:absolute;
+}
+div#marco-titulo-boton-morado{
+	margin-top: 8px;
+	margin-left: 40px;
+	position:absolute;
+}
+label#titulo-boton-morado{
+	font-size: 14px;
+    font-family: "Montserrat-SemiBold";
+	color: #FFFFFF;
+	
+}
+button#continua-morado{
+  width:250px;
+  height:36px;
+  border-width: 0px;
+  border-radius: 25px 30px 30px 0px;
+  background: #543CA8;
+  white-space: normal;
+  box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+button#continua-morado:focus {
+	outline:0 !important;
+}
+
+div#marco-tabla{
+	margin-top: 270px;
+	margin-left: 100px;
+	width: 360px; 
+	height: 305px;
+	position:absolute;
+}
+div#marco-sombra{
+	margin-top: 271px;
+	margin-left: 100px;
+	width: 360px; 
+	height: 305px;
+	position:absolute;
+	border-radius: 18px;
+	/*background-color:yellow;*/
+	-webkit-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);	
+}
+
+table{
+    border-collapse: collapse; /* Los bordes de la tabla se pegarán (mejor aspecto) */
+	width: 360px; 
+	height: 310px;
+}
+
+td#turquesa-fila1{
+	height: 99px;
+	background: linear-gradient(to right,#92CFD0,#55B8B5,#1CA299);
+	border-bottom: 1px solid #FFFFFF;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+td#turquesa-fila2{
+	height: 99px;
+	background: linear-gradient(to right,#92CFD0,#55B8B5,#1CA299);
+	border-bottom: 1px solid #FFFFFF;
+}
+td#turquesa-ultima-fila {
+	height: 110px;
+	background: linear-gradient(to right,#92CFD0,#55B8B5,#1CA299);
+	border-bottom-left-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+
+div#marco-tabla2{
+	margin-top: 270px;
+	margin-left: 495px;
+	width: 420px; 
+	height: 305px;
+	position:absolute;
+}
+div#marco-sombra2{
+	margin-top: 271px;
+	margin-left: 495px;
+	width: 420px; 
+	height: 305px;
+	position:absolute;
+	border-radius: 18px;
+	/*background-color:yellow;*/
+	-webkit-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.75);	
+}
+
+table#dos{
+    border-collapse: collapse; /* Los bordes de la tabla se pegarán (mejor aspecto) */
+	width: 420px; 
+	height: 310px;
+}
+
+td#morado-fila1{
+	height: 94px;
+	background: linear-gradient(to right,#7379B9,#685CA4,#5D4593);
+	border-bottom: 1px solid #E8FAFD;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+td#morado-fila2{
+	height: 53px;
+	background: linear-gradient(to right,#7379B9,#685CA4,#5D4593);
+	border-bottom: 1px solid #FFFFFF;
+}
+td#morado-fila3{
+	height: 53px;
+	background: linear-gradient(to right,#7379B9,#685CA4,#5D4593);
+	border-bottom: 1px solid #FFFFFF;
+}
+td#morado-fila4{
+	height: 53px;
+	background: linear-gradient(to right,#7379B9,#685CA4,#5D4593);
+	border-bottom: 1px solid #FFFFFF;
+}
+td#morado-ultima-fila {
+	height: 53px;
+	background: linear-gradient(to right,#7379B9,#685CA4,#5D4593);
+	border-bottom-left-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+img#imagen-varices{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-varices-turquesa{
+	margin-top: 313px;
+	margin-left: 120px;
+	position:absolute;
+}
+
+img#imagen-obesidad{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-obesidad{
+	margin-top: 395px;
+	margin-left: 120px;
+	position:absolute;
+}
+
+img#imagen-lipidos{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-lipidos{
+	margin-top: 500px;
+	margin-left: 120px;
+	position:absolute;
+}
+
+img#imagen-estrogenos{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-estrogenos{
+	margin-top: 313px;
+	margin-left: 520px;
+	position:absolute;
+}
+
+img#imagen-osteoporosis{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-osteoporosis{
+	margin-top: 370px;
+	margin-left: 520px;
+	position:absolute;
+}
+
+img#imagen-gota{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-gota{
+	margin-top: 426px;
+	margin-left: 520px;
+	position:absolute;
+}
+
+img#imagen-corazon{
+	width: 45px;
+	height: 45px;
+}
+
+div#marco-corazon{
+	margin-top: 481px;
+	margin-left: 520px;
+	position:absolute;
+}
+
+div#marco-varices{
+	margin-top: 533px;
+	margin-left: 520px;
+	position:absolute;
+}
+
+label#texto-tabla{
+	font-size: 17px;
+    font-family: "Montserrat-Light";
+	color: #FFFFFF;
+}
+
+div#marco-texto-varices-turquesa{
+	position:absolute;
+	margin-top: 328px;
+	margin-left: 185px;
+}
+
+div#marco-texto-estrogenos{
+	position:absolute;
+	margin-top: 328px;
+	margin-left: 585px;
+}
+
+div#marco-texto-obesidad{
+	position:absolute;
+	margin-top: 395px;
+	margin-left: 185px;
+}
+
+div#marco-texto-lipidos{
+	position:absolute;
+	margin-top: 500px;
+	margin-left: 185px;
+}
+
+div#marco-texto-osteoporosis{
+	position:absolute;
+	margin-top: 370px;
+	margin-left: 585px;
+}
+
+div#marco-texto-gota{
+	position:absolute;
+	margin-top: 435px;
+	margin-left: 585px;
+}
+
+div#marco-texto-corazon{
+	position:absolute;
+	margin-top: 490px;
+	margin-left: 585px;
+}
+
+div#marco-texto-varices{
+	position:absolute;
+	margin-top: 545px;
+	margin-left: 585px;
+}

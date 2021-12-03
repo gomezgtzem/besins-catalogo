@@ -1,0 +1,115 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+@font-face {
+  font-family: "OptaneBold";
+  src: url("../fuentes/OptaneBold.ttf");
+}
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/ogestan1.png);
+}
+
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 350px;
+  	height: 550px;
+	margin-top: 60px;
+	margin-left: 640px;
+	position:absolute;
+}
+div#logo-ogestan{
+	position: absolute;
+  	top:15px;
+	left: 80px;
+}
+img#logo-ogestan{
+	width: 210px;
+	height: 45px;
+}
+div#cuadro-texto{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 120px;
+	left: 30px;
+	text-align: center;
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	top: 35px;
+	left: 30px;
+}
+div#linea2{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	top: 75px;
+	left: 25px;
+}
+div#linea3{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	top: 115px;
+	left: 25px;
+}
+div#linea4{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 155px;
+	left: 50px;
+}
+div#linea5{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 195px;
+	left: 45px;
+}
+div#linea6{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 240px;
+	left: 50px;
+}
+
+label#letra-regular{
+	font-family: "OptaneRegular";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 35px;
+}
+label#letra-bold{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 35px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:560px;
+	left: 260px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}

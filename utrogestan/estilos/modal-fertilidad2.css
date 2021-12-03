@@ -1,0 +1,280 @@
+/*modal*/
+div#modal-dosis{
+  background: rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  position: absolute;
+  top: -800px;/*-800*/
+  left: -150px;
+  height: 600px;
+  width: 850px;
+  transition: all .5s;
+  z-index:100;
+  border-radius: 30px 30px 30px 30px;
+}
+
+#mostrar-modal-dosis{
+  display: none;
+}
+
+#mostrar-modal-mas-dosis{
+  display: none;
+}
+
+#mostrar-modal-dosis + label {
+	font-family: "Montserrat-ExtraBold";
+	font-size: 16px;
+	margin-top: 365px;
+    margin-left: 157px;
+    width:130px;
+    height:32px;
+	color: #FFFFFF;
+	border-width: 0px;
+	background: #03AE9D;
+	white-space: normal;
+	box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	text-transform: uppercase;
+	line-height: 32px;
+  	text-align: center;
+	position:absolute;
+}
+
+#mostrar-modal-mas-dosis + label {
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  left: 400px;
+  color: #fff;
+  cursor: pointer;
+  background: #DE407A;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  transition: all .5s;
+}
+
+#mostrar-modal-mas-dosis:checked ~ #modal-dosis {
+  top: 70px;
+}
+/*Modal-activo*/
+#mostrar-modal-dosis:checked ~ #modal-dosis {
+  top: -100px;
+}
+
+#cerrar-modal-dosis {
+  display:none;
+}
+/*&times*/
+#cerrar-modal-dosis + label {
+  font-family: "Montserrat-Bold";
+  font-size: 35px;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 100;
+  color: #fff;
+  cursor: pointer;
+  background: #DE407A;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-modal-dosis:checked ~ #modal-dosis {
+  top: -610px;
+}
+
+div#marco-modal-dosis{
+	/*border: 3px solid purple;*/
+	width: 480px;
+	height: 280px;
+	top:50px;
+	left: 30px;
+	position:absolute;
+}
+label#letra-bold-layer2{
+	font-family: "Montserrat-SemiBold";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size:21px;
+}
+label#letra-light-layer3{
+	font-family: "Montserrat-Light";
+	color: #FFFFFF;
+	width: 290px;
+    height: 130px;
+	font-size:22px;
+}
+label#texto-gris{
+	font-family: "Montserrat-Regular";
+	font-size: 9px;
+	color: #706F6F;
+}
+label#texto-rosa{
+	font-family: "Montserrat-Bold";
+	font-size: 9px;
+	color: #DB437B;
+}
+div#division{
+	position: absolute;
+	top:230px;
+	left: -30px;
+}
+img#division{
+  width: 550px;
+  height: 2px;
+  position: absolute;
+}
+button#boton-ventana-dosis{
+	position: absolute;
+	top:85px;
+	left: 65px;
+	width:170px;
+	height:50px;
+	border-width: 0px;
+	border-radius: 0px 30px 30px 0px;
+	background: #DB437B;
+	white-space: normal;
+}
+
+button#boton-ventana:focus {
+	outline:0 !important;
+}
+div#marco-dosis1{/*cuadro-blanco*/
+	width: 750px;
+	height: 150px;
+	top: 0px;
+	left: 55px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+    margin-top: 160px;
+    margin-left: 10px;
+    position:absolute;
+}
+div#marco-dosis2{/*cuadro-blanco*/
+	width: 750px;
+	height: 200px;
+	top: 140px;
+	left: 55px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 25px;
+	border-radius: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+    position:absolute;
+}
+div#division2{
+	position: absolute;
+	top:20px;
+	left: 0px;
+}
+img#division2{
+	width: 750px;
+ 	height: 2px;
+}
+div#division3{
+	position: absolute;
+	top:0px;
+	left: 360px;
+}
+img#division3{
+	width: 2px;
+ 	height: 150px;
+}
+div#division4{
+	position: absolute;
+	top:65px;
+	left: 0px;
+}
+div#division5{
+	position: absolute;
+	top:30px;
+	left: 0px;
+}
+img#division4{
+	width: 750px;
+ 	height: 2px;
+}
+div#division6{
+	position: absolute;
+	top:0px;
+	left: 360px;
+}
+img#division5{
+	width: 2px;
+ 	height: 200px;
+}
+div#division7{
+	position: absolute;
+	top:120px;
+	left: 0px;
+}
+div#tratamiento{
+	position: absolute;
+	top:8px;
+	left:40px;
+}
+div#dosis{
+	position: absolute;
+	top:8px;
+	left:490px; 
+}
+div#tratamiento1{
+	position: absolute;
+	top:45px;
+	left:5px;
+}
+div#tratamiento2{
+	text-align: justify;
+	position: absolute;
+	width: 350px;
+	top:85px;
+	left:5px;
+}
+div#dosis1{
+	text-align: justify;
+	width: 400px;
+	position: absolute;
+	top:45px;
+	left:375px;
+}
+div#dosis2{
+	text-align: justify;
+	position: absolute;
+	width: 340px;
+	top:85px;
+	left:375px;
+}
+div#tratamiento3{
+	position: absolute;
+	top:45px;
+	left:5px;
+}
+div#tratamiento4{
+	text-align: justify;
+	position: absolute;
+	width: 250px;
+	top:140px;
+	left:5px;
+}
+div#dosis3{
+	text-align: justify;
+	width: 360px;
+	position: absolute;
+	top:45px;
+	left:375px;
+}
+div#dosis4{
+	text-align: justify;
+	position: absolute;
+	width: 340px;
+	top:140px;
+	left:375px;
+}

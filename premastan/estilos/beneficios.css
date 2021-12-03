@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.otf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan4.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 800px;
+    height: 500px;
+	top: 80px;
+	left: 200px;
+	position: absolute;
+}
+div#marco-premastan{
+	/*border: 3px solid blue;*/
+	height: 105px;
+    width: 300px;
+	top: 5px;
+	left: 250px;
+	position:absolute
+}
+img#premastanclave{
+	width: 300px;
+	height: 105px;
+	position:absolute
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	height:40px; 
+	width:710px;
+	top: 135px;
+	left: 70px;
+	position:absolute;
+}
+label#texto1{
+	font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 25px;
+}
+label#texto2{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 18px;
+}
+label#texto3{
+	font-family: "Dulcelin";
+	color: 	#E98798;
+	font-size: 45px;
+}
+div#lista{
+	/*border: 3px solid black;*/
+	top: 190px;
+	left: 70px;
+	height:280px; 
+	width:710px;
+	position:absolute;
+}
+div#mariposa1{
+	/*border: 3px solid orange;*/
+	width:40px;
+	height:25px; 
+	top: 28px;
+	left: 25px;
+	position:absolute;
+}
+img#mariposa1{
+	width: 40px;
+    height: 25px;
+}
+div#punto1{
+	/*border: 3px solid green;*/
+	width: 580px;
+	height: 60px; 
+	top: 15px;
+	left: 85px;
+	position:absolute;
+}
+label#textol1{
+font-family: "Comfortaa-Bold";
+	color: 	#E98798;
+	font-size: 20px;
+}
+label#textol2{
+	font-family: "Comfortaa-Bold";
+	color: 	#4E3A3C;
+	font-size: 20px;
+}
+label#textoxl{
+		font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 40px;
+}
+div#marco-pop2{
+	/*border: 3px solid red;*/
+	width:15px;
+	height:15px; 
+	top: 40px;
+	left: 100px;
+	position:absolute;
+}
+div#marco-pop3{
+	/*border: 3px solid red;*/
+	width:15px;
+	height:15px;
+	top: 40px;
+	left: 109px;
+	position:absolute;
+}
+label#textopop1{
+	font-family: "Comfortaa-Bold";
+	color: 	#4E3A3C;
+	font-size: 10px;
+	vertical-align: super;
+}
+label#textopop2{
+	font-family: "Comfortaa-Bold";
+	color: 	#E98798;
+	font-size: 10px;
+}
+div#mariposa2{
+	/*border: 3px solid orange;*/
+	width:40px;
+	height:25px; 
+	top: 100px;
+	left: 25px;
+	position:absolute;
+}
+img#mariposa2{
+	width: 40px;
+    height: 25px;
+}
+div#punto2{
+	/*border: 3px solid green;*/
+	width:580px;
+	height:60px; 
+	top: 100px;
+	left: 85px;
+	position:absolute;
+}
+label#texto1a{
+	font-family: "Comfortaa-Bold";
+	color: 	#D46179;
+	font-size: 20px;
+}
+label#texto2a{
+	font-family: "Comfortaa-Bold";
+	color: 	#4E3A3C;
+	font-size: 20px;
+}
+div#marco-pop4{
+	/*border: 3px solid red;*/
+	width:15px;
+	height:15px;
+	top: 17px;
+	left: 415px;
+	position:absolute;
+}
+div#marco-pop5{
+	/*border: 3px solid red;*/
+	width:15px;
+	height:15px;
+	top: -6px;
+	left: 414px;
+	position:absolute;
+}
+div#mariposa3{
+	/*border: 3px solid orange;*/
+	width:40;
+	height:25; 
+	top: 160px;
+	left: 25px;
+	position:absolute;
+}
+img#mariposa3{
+	width: 40px;
+    height: 25px;
+}
+div#punto3{
+	/*border: 3px solid green;*/
+	width:580px;
+	height:50px; 
+	top: 170px;
+	left: 85px;
+	position:absolute;
+}

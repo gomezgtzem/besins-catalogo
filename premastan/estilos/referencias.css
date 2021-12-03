@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.otf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan7.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 940px;
+    height: 580px;
+	top: 40px;
+	left: 40px;
+	position: absolute;
+}
+div#marco-premastan{
+	/*border: 3px solid blue;*/
+	height: 88px;
+    width: 250px;
+    top: 2px;
+	left: 330px;
+	position:absolute
+}
+img#premastanclave{
+	width: 250px;
+	height: 88px;
+	position:absolute
+}
+div#marco-referencias1{
+	/*border: 3px solid green;*/
+	width: 850px;
+    height: 300px;
+	top: 180px;
+	left: 40px;
+	position: absolute;
+	text-align: justify-all;
+}
+label#encabezado{
+	font-family: "Comfortaa-Bold";
+	color: 	#b93a4f;
+	font-size: 25px;
+}
+label#numero{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#e04c4b;
+	font-size: 15px;
+}
+label#texto{
+	font-family: "Comfortaa-Regular";
+	color: 	#484445;
+	font-size: 15px;
+}

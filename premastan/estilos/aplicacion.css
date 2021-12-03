@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.otf");
+}
+
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan6.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 940px;
+    height: 580px;
+	top: 40px;
+	left: 40px;
+	position: absolute;
+}
+div#marco-premastan{
+	/*border: 3px solid blue;*/
+	height: 88px;
+    width: 250px;
+    top: 2px;
+	left: 330px;
+	position:absolute
+}
+img#premastanclave{
+	width: 250px;
+	height: 88px;
+	position:absolute
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	height:40px; 
+	width:640px;
+	top: 110px;
+	left: 120px;
+	position:absolute;
+}
+label#texto1{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#D46179;
+	font-size: 28px;
+}
+div#marco-pop6{
+	/*border: 3px solid red;*/
+	width:15px;
+	height:15px; 
+	top: 110px;
+	left: 762px;
+	position:absolute;
+}
+label#textopop{
+	font-family: "Comfortaa-Bold";
+	color: 	#E98798;
+	font-size: 15px;
+	vertical-align: super;
+}
+div#marcoCirculo1{
+	/*border: 3px solid purple;*/
+	width:140px;
+	height:190px; 
+	top: 180px;
+	left: 15px;
+	position:absolute;
+}
+img#circulo{
+	left: 12px;
+	width: 100px;
+	height: 80px;
+	position:absolute
+}
+div#textoCirculo1{
+	/*border: 3px solid yellow;*/
+	width:190px;
+	height:70px; 
+	top: 100px;
+	left: -30px;
+	position:absolute;
+	text-align: center;
+}
+label#textoc1{
+	font-family: "Comfortaa-Regular";
+	color: 	#E98798;
+	font-size: 16px;
+}
+label#textoc1a{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#E98798;
+	font-size: 16px;
+}
+label#textoc1b{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 16px;
+}
+div#marcoCirculo2{
+	/*border: 3px solid purple;*/
+	width:140px;
+	height:190px; 
+	top: 180px;
+	left: 205px;
+	position:absolute;
+}
+div#textoCirculo2{
+	/*border: 3px solid yellow;*/
+	width:180px;
+	height:70px; 
+	top: 100px;
+	left: -25px;
+	position:absolute;
+	text-align: center;
+}
+div#marcoCirculo3{
+	/*border: 3px solid purple;*/
+	width:140px;
+	height:190px; 
+	top: 180px;
+	left: 390px;
+	position:absolute;
+}
+div#textoCirculo3{
+	/*border: 3px solid yellow;*/
+	width:175px;
+	height:70px; 
+	top: 100px;
+    left: -22px;
+	position:absolute;
+	text-align: center;
+}
+div#marcoCirculo4{
+	/*border: 3px solid purple;*/
+	width:140px;
+	height:190px; 
+	top: 180px;
+	left: 585px;
+	position:absolute;
+}
+div#textoCirculo4{
+	/*border: 3px solid yellow;*/
+	width:190px;
+	height:70px; 
+	top: 100px;
+	left: -20px;
+	position:absolute;
+	text-align: center;
+}
+div#marcoCirculo5{
+	/*border: 3px solid purple;*/
+	width:140px;
+	height:190px; 
+	top: 180px;
+	left: 780px;
+	position:absolute;
+}
+div#textoCirculo5{
+	/*border: 3px solid yellow;*/
+	width:120px;
+	height:70px; 
+	top: 100px;
+	left: 5px;
+	position:absolute;
+	text-align: center;
+}
+div#marco-gel{
+	/*border: 3px solid blue;*/
+	width:750px;
+	height:190px; 
+	top: 380px;
+	left: 40px;
+	position:absolute;	
+}
+img#tubo{
+	top: 50px;
+	width: 300px;
+	height: 100px;
+	position:absolute
+}
+img#mariposas{
+	top: 10px;
+	left: -30px;
+	width: 80px;
+	height: 100px;
+	position:absolute	
+}
+div#marco-texto{
+	/*border: 3px solid orange;*/
+	width:500px;
+	height:60px; 
+	top: 65px;
+	left: 320px;
+	position:absolute;
+	text-align: justify-all;	
+}
+label#letra1{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 18px;
+}
+label#letra2{
+	font-family: "Comfortaa-Bold";
+	font: bolder;
+	color: 	#E98798;
+	font-size: 18px;
+}
+label#letra3{
+	font-family: "Comfortaa-Bold";
+	color: 	#4E3A3C;
+	font-size: 18px;
+}
+div#leyenda{
+	width:135px;
+	height:15px; 
+	top: 150px;
+	left: 160px;
+	position:absolute;
+}
+label#leyenda{
+	font-family: "Comfortaa-Regular";
+	color: 	#4E3A3C;
+	font-size: 10px;	
+}

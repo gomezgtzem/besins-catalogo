@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/premastan3.png);
+}
+
+div#Arriba{
+	/*border: 3px solid yellow;*/
+	width: 760px;
+    height: 150px;
+	top: 30px;
+	left: 120px;
+	position: absolute;
+}
+div#marco-premastan{
+	height: 90px;
+    width: 410px;
+	position:absolute
+}
+img#premastan{
+	width: 410px;
+	height: 90px;
+	position:absolute
+}
+div#encabezado{
+	left: 160px;
+	top: 10px;
+	position:absolute;
+	width: 750px;
+	height: 100px;
+}
+label#texto1{
+	font-family: "Dulcelin";
+	color: 	#D46179;
+	font-size: 70px;
+}
+div#linea1{
+	left: 195px;
+	top: 120px;
+	/*background-color: red;*/
+	position:absolute;
+}
+label#texto2{
+	font-family: "Comfortaa-Regular";
+	color: 	#E98798;
+	font-size: 19px;
+}
+div#marco-pop{
+	top: 385px;
+	left: 456px;
+	position:absolute;
+}
+label#letra-pop{
+	font-family: Comfortaa-Bold;
+	font-size: 6px;
+	color: #D994A0;	
+}
+div#marco-mariposas{
+	position:absolute;
+	top: 158px;
+	left: 898px;
+}
+
+img#mariposas{
+	width: 120px;
+	height: 166px;
+}
+
+
+
+
+

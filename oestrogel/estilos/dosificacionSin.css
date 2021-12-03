@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel4.png);
+}
+/*POPUPS*/
+/***********************************/
+div#marco-pop1{
+	width: 10px;
+    height: 10px;
+	margin-top: 90px;
+	margin-left: 630px;
+	position:absolute;
+}
+label#pop1{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 9px;
+	vertical-align:super;
+}
+div#marco-pop2{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 690px;
+	position:absolute;
+}
+div#marco-pop3{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 702px;
+	position:absolute;
+}
+label#pop2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 12px;
+}
+div#marco-pop9{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 658px;
+	position:absolute;
+}
+div#marco-pop14{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 669px;
+	position:absolute;
+}
+div#marco-pop15{
+	width: 10px;
+    height: 10px;
+	margin-top: 240px;
+	margin-left: 683px;
+	position:absolute;
+}
+label#pop3{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 290px;
+    height: 130px;
+	font-size: 10px;
+}
+div#marco-pop1a{
+	margin-top: 230px;
+	margin-left: 312px;
+	position:absolute;
+}
+label#pop1a{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 5px;
+	vertical-align:super;
+}
+/************************************/
+/*Div Marco Arriba*/
+div#Arriba{
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+div#marco-uso{
+	margin-top: 290px;
+    margin-left: 360px;
+    position:absolute;
+}
+label#titulo-uso-bold{
+	font-family: "Montserrat-Semibold";
+ 	color: #543CA8;
+ 	font-size: 18px;
+ }
+label#titulo-uso{
+	font-family: "Montserrat-SemiBold";
+ 	color: #543CA8;
+ 	font-size: 15px;
+ }
+ label#texto-uso{
+ 	font-family: "Montserrat-Light";
+ 	font-size: 15px;
+ 	color: #FFFFFF;
+ }
+ 
+ div#marco-titulo-cremas{
+	margin-top: 452px;
+    margin-left: 720px;
+    position:absolute;
+}
+
+ label#titulo-cremas{
+ 	font-family: "Montserrat-Light";
+ 	font-size: 11px;
+ 	color: #FFFFFF;
+ }
+
+div#marco-texto-tabla-fila3{
+	position:absolute;
+	margin-top: 493px;
+	margin-left: 105px;
+}
+
+
+label#texto-morado-pequeño-bold{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 240px;
+    height: 100px;
+	font-size: 11px;
+}
+label#texto-morado-pequeño{
+	font-family: "Montserrat-Light";
+	color: #543CA8;
+	width: 240px;
+    height: 100px;
+	font-size: 11px;
+}
+

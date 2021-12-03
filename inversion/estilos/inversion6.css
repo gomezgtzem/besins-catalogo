@@ -1,0 +1,605 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MinionPro-Regular";
+  src: url("../fuentes/MinionPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Hv";
+  src: url("../fuentes/HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+@font-face {
+  font-family: "Smooth-Circulars";
+  src: url("../fuentes/Smooth-Circulars.otf");
+}
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion4.png);
+}
+img#acento{
+    width: 5px;
+    height: 10px;
+}
+
+div#acento-termo{
+    position:absolute;
+    top: 130px;
+    left: 30px;
+}
+
+div#acento-energetico{
+    position:absolute;
+    top: 158px;
+    left: 245px;
+}
+
+div#figura{
+	position:absolute;
+	top: 95px;
+	left: 105px;
+	width: 620px;
+	height: 590px;
+}
+
+div#petalo1{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 290px;
+	height: 290px;
+	border: 3px solid #FFFFFF;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: #E8C9CE;
+}
+div#petalo2{
+	position:absolute;
+	top: 0px;
+	left: 293px;
+	width: 290px;
+	height: 290px;
+	border: 3px solid #FFFFFF;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: #E8C9CE;
+}
+div#petalo3{
+	position:absolute;
+	top: 293px;
+	left: 0px;
+	width: 290px;
+	height: 290px;
+	border: 3px solid #FFFFFF;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: #E8C9CE;
+}
+div#petalo4{
+	position:absolute;
+	top: 293px;
+	left: 293px;
+	width: 290px;
+	height: 290px;
+	border: 3px solid #FFFFFF;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: #E8C9CE;
+}
+
+img#pastilla{
+	width: 15px;
+	height: 14px;
+}
+
+label#letra-roja{
+	font-family: HelveticaNeueLTStd-Hv;
+	font-size: 17px;
+	color: #A11D27;
+}
+
+label#letra-gris{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 15px;
+	color: #6F6F6E;
+}
+
+label#letra-roja-titulos{
+	font-family: Smooth-Circulars;
+	font-size: 20px;
+	color: #A11D27;
+}
+
+label#letra-gris-titulos{
+	font-family: Smooth-Circulars;
+	font-size: 20px;
+	color: #575756;
+}
+
+div#marco-vertical-nutricional{
+	top: 80px;
+    left: -45px;
+    position: absolute;
+	width: 170px;
+	transform: rotateZ(270deg); /* Standard syntax */
+}
+
+div#marco-vertical-termogenica{
+	top: 145px;
+    left: -60px;
+    position: absolute;
+	width: 205px;
+	transform: rotateZ(270deg); /* Standard syntax */
+}
+
+div#marco-vertical-antioxidante{
+	top: 90px;
+    left: 155px;
+    position: absolute;
+	width: 205px;
+	transform: rotateZ(270deg); /* Standard syntax */
+}
+
+div#marco-vertical-energetico{
+	top: 145px;
+    left: 155px;
+    position: absolute;
+	width: 205px;
+	transform: rotateZ(270deg); /* Standard syntax */
+}
+
+div#antioxidante-pastilla-roja1{
+    position:absolute;
+    top: 40px;
+    left: 35px;
+}
+
+div#letra-antioxidante-pastilla-roja1{
+    position:absolute;
+    top: 37px;
+    left: 55px;
+}
+
+
+div#antioxidante-pastilla-roja2{
+    position:absolute;
+    top: 60px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-roja2{
+    position:absolute;
+    top: 57px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-roja3{
+    position:absolute;
+    top: 80px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-roja3{
+    position:absolute;
+    top: 77px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-roja4{
+    position:absolute;
+    top: 100px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-roja4{
+    position:absolute;
+    top: 97px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-roja5{
+    position:absolute;
+    top: 120px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-roja5{
+    position:absolute;
+    top: 117px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-roja6{
+    position:absolute;
+    top: 140px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-roja6{
+    position:absolute;
+    top: 137px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca1{
+    position:absolute;
+    top: 160px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca1{
+    position:absolute;
+    top: 158px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca2{
+    position:absolute;
+    top: 180px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca2{
+    position:absolute;
+    top: 178px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca3{
+    position:absolute;
+    top: 200px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca3{
+    position:absolute;
+    top: 198px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca4{
+    position:absolute;
+    top: 220px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca4{
+    position:absolute;
+    top: 218px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca5{
+    position:absolute;
+    top: 240px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca5{
+    position:absolute;
+    top: 238px;
+    left: 55px;
+}
+
+div#antioxidante-pastilla-blanca6{
+    position:absolute;
+    top: 260px;
+    left: 35px;
+}
+div#letra-antioxidante-pastilla-blanca6{
+    position:absolute;
+    top: 258px;
+    left: 55px;
+}
+
+div#energetico-pastilla-roja1{
+    position:absolute;
+    top: 50px;
+    left: 35px;
+}
+div#letra-energetico-pastilla-roja1{
+    position:absolute;
+    top: 47px;
+    left: 55px;
+}
+
+div#energetico-pastilla-roja2{
+    position:absolute;
+    top: 70px;
+    left: 35px;
+}
+div#letra-energetico-pastilla-roja2{
+    position:absolute;
+    top: 67px;
+    left: 55px;
+}
+
+div#energetico-pastilla-roja3{
+    position:absolute;
+    top: 90px;
+    left: 35px;
+}
+div#letra-energetico-pastilla-roja3{
+    position:absolute;
+    top: 87px;
+    left: 55px;
+}
+
+div#energetico-pastilla-roja4{
+    position:absolute;
+    top: 110px;
+    left: 35px;
+}
+div#letra-energetico-pastilla-roja4{
+    position:absolute;
+    top: 107px;
+    left: 55px;
+}
+
+div#energetico-pastilla-blanca1{
+    position:absolute;
+    top: 130px;
+    left: 35px;
+}
+div#letra-energetico-pastilla-blanca1{
+    position:absolute;
+    top: 128px;
+    left: 55px;
+}
+
+
+div#nutricional-pastilla-roja1{
+    position:absolute;
+    top: 60px;
+    left: 75px;
+}
+
+div#letra-nutricional-pastilla-roja1{
+    position:absolute;
+    top: 57px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-roja2{
+    position:absolute;
+    top: 80px;
+    left: 75px;
+}
+
+div#letra-nutricional-pastilla-roja2{
+    position:absolute;
+    top: 77px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-roja3{
+    position:absolute;
+    top: 100px;
+    left: 75px;
+}
+
+div#letra-nutricional-pastilla-roja3{
+    position:absolute;
+    top: 97px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca1{
+    position:absolute;
+    top: 120px;
+    left: 75px;
+}
+
+div#letra-nutricional-pastilla-blanca1{
+    position:absolute;
+    top: 118px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca2{
+    position:absolute;
+    top: 140px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca2{
+    position:absolute;
+    top: 138px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca3{
+    position:absolute;
+    top: 160px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca3{
+    position:absolute;
+    top: 158px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca4{
+    position:absolute;
+    top: 180px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca4{
+    position:absolute;
+    top: 178px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca5{
+    position:absolute;
+    top: 200px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca5{
+    position:absolute;
+    top: 198px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca6{
+    position:absolute;
+    top: 220px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca6{
+    position:absolute;
+    top: 218px;
+    left: 95px;
+}
+
+div#nutricional-pastilla-blanca7{
+    position:absolute;
+    top: 240px;
+    left: 75px;
+}
+div#letra-nutricional-pastilla-blanca7{
+    position:absolute;
+    top: 238px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-roja1{
+    position:absolute;
+    top: 50px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-roja1{
+    position:absolute;
+    top: 47px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-roja2{
+    position:absolute;
+    top: 70px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-roja2{
+    position:absolute;
+    top: 67px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-roja3{
+    position:absolute;
+    top: 90px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-roja3{
+    position:absolute;
+    top: 87px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-blanca1{
+    position:absolute;
+    top: 110px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-blanca1{
+    position:absolute;
+    top: 107px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-blanca2{
+    position:absolute;
+    top: 130px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-blanca2{
+    position:absolute;
+    top: 127px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-blanca3{
+    position:absolute;
+    top: 150px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-blanca3{
+    position:absolute;
+    top: 147px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-blanca4{
+    position:absolute;
+    top: 170px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-blanca4{
+    position:absolute;
+    top: 167px;
+    left: 95px;
+}
+
+div#termogenetica-pastilla-blanca5{
+    position:absolute;
+    top: 190px;
+    left: 75px;
+}
+div#letra-termogenetica-pastilla-blanca5{
+    position:absolute;
+    top: 187px;
+    left: 95px;
+}
+
+
+/*POPUP1**/
+div#marco-pop1a{
+    top: 18px;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    transform: rotateZ(270deg); /* Standard syntax */
+}
+div#marco-pop1b{
+    top: 10px;
+    left: 540px;
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    transform: rotateZ(270deg); /* Standard syntax */
+}
+div#marco-pop1c{
+    top: 352px;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    transform: rotateZ(270deg); /* Standard syntax */
+}
+div#marco-pop1d{
+    top: 390px;
+    left: 540px;
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    transform: rotateZ(270deg); /* Standard syntax */
+}
+label#pop-rojo{
+    font-family: "HelveticaNeueLTPro-Roman";
+    font: bolder;
+    color: #A11D27;
+    width: 290px;
+    height: 130px;
+    font-size: 10px;
+}
+label#pop-gris{
+    font-family: "HelveticaNeueLTPro-Roman";
+    font: bolder;
+    color: #575756;
+    width: 290px;
+    height: 130px;
+    font-size: 11px;
+}

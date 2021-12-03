@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+
+div#marco-botones{
+	position:absolute;
+	top: 697px;
+	left: 5px;
+	width: 130px;
+	height: 50px;
+}
+
+div#marco-home{
+	position:absolute;
+	top: 8px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+div#marco-pipe{
+	position:absolute;
+	top: 5px;
+	left: 25px;
+	width: 40px;
+	height: 40px;
+}
+
+div#marco-atras{
+	position:absolute;
+	top: 8px;
+	left: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+div#marco-adelante{
+	position:absolute;
+	top: 8px;
+	left: 65px;
+	width: 40px;
+	height: 40px;
+}
+
+img#home{
+	width: 28px;
+	height: 28px;
+}
+
+img#pipe{
+	height: 32px;
+}
+
+img#atras{
+	width: 28px;
+	height: 28px;
+}
+
+img#adelante{
+	width: 28px;
+	height: 28px;
+}
+
+
+div#marco-lateral{
+	width: 10px;
+    height: 200px;
+	top: 490px;
+	left: 10px;
+	position: absolute;
+}
+label#texto-lateral{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 5px;
+	color: #FFFFFF;
+	writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}

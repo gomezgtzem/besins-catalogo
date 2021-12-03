@@ -1,0 +1,1129 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+@font-face {
+  font-family: "OptaneBold";
+  src: url("../fuentes/OptaneBold.ttf");
+}
+@font-face {
+  font-family: "OptaneBoldItalic";
+  src: url("../fuentes/OptaneBoldItalic.ttf");
+}
+
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/ogestan2.png);
+}
+
+div#encabezado{
+	/*border: 3px solid green;*/
+	width: 780px;
+  	height: 80px;
+	margin-top: 10px;
+	margin-left: 220px;
+	position:absolute;
+}
+
+div#texto-encabezado{
+	position: absolute;
+  	top:15px;
+	left: 10px;
+}
+
+div#logo-ogestan{
+	position: absolute;
+  	top:5px;
+	left: 555px;
+}
+
+img#logo-ogestan{
+	width: 210px;
+	height: 45px;
+}
+
+label#letra-bold{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 35px;
+}
+
+div#Arriba{
+	/*border: 3px solid green;*/
+	width: 950px;
+  	height: 610px;
+	margin-top: 60px;
+	margin-left: 25px;
+	position:absolute;
+}
+
+div#texto-titulo1{
+	position: absolute;
+  	top:60px;
+	left: 285px;
+}
+
+div#texto-titulo2{
+	position: absolute;
+  	top:85px;
+	left: 165px;
+}
+
+div#logo-oms{
+	position: absolute;
+  	top:10px;
+	left: 30px;
+}
+
+img#logo-oms{
+	width: 130px;
+	height: 135px;
+}
+
+label#letra-bold2{
+	font-family: "OptaneBold";
+	font: bolder;
+	color: #35518D;
+	width: 290px;
+    height: 130px;
+	font-size: 23px;
+}
+
+div#logo-besins{
+	position: absolute;
+  	top:560px;
+	left: 865px;
+}
+
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}
+
+/* YODO */
+
+div#yodo{
+	width: 650px;
+	height: 435px;
+	top: 185px;
+	left: 345px;
+	position:absolute;
+	
+}
+
+div#yodo-blanco{
+	width: 630px;
+	height: 355px;
+	top: 50px;
+	left: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+}
+
+div#yodo-borde-verde-punteado{
+	width: 614px;
+	height: 345px;
+	top: 3px;
+	left: 6px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #d5dd37;
+	position:absolute;
+	box-shadow: inset 5px 5px 10px #eaeaea;
+}
+
+div#yodo-tira-verde{
+	width: 638px;
+	height: 50px;
+	top: 340px;
+	left: 5px;
+	background-color: #d3da39;
+	position:absolute;
+	box-shadow: 0px 2px 5px #BFC1BD;
+}
+
+div#yodo-tira-verde-oscura{
+	width: 638px;
+	height: 41px;
+	top: 3px;
+	left: px;
+	background-color: #c0c731;
+	position:absolute;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: #316db3;
+}
+
+div#marco-yodo-circular{
+	top: 395px; 
+	left: 370px;
+	position:absolute;
+	
+}
+
+button#yodo-boton-circular{	
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#yodo-boton-circular:focus {
+	outline:0 !important;
+}
+
+div#imagen-yodo{
+	position:absolute;
+	top: 15px;
+	left: 40px;
+}
+
+div#yodo-subtitulo{
+	position:absolute;
+	top: 190px;
+	left: 62px;
+}
+
+label#yodo-subtitulo{
+	font-family: "OptaneBold";
+	color: #ec1c23;
+	width: 290px;
+    height: 130px;
+	font-size: 30px;
+}
+
+div#yodo-puntos-verdes{
+	position:absolute;
+	width: 42px;
+	height: 270px;
+	top: 10px;
+	left: 190px;
+	
+}
+
+div#yodo-punto1{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 29.5px;
+	left: 15px;	
+}
+
+div#yodo-punto2{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 136.5px;
+	left: 15px;	
+}
+
+div#yodo-punto3{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 200px;
+	left: 15px;	
+}
+
+label#yodo-texto-azul{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 17px;
+}
+
+label#yodo-texto-gris{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 17px;
+}
+
+div#yodo-letras{
+	position:absolute;
+	width: 385px;
+	height: 270px;
+	top: 10px;
+	left: 235px;
+}
+
+div#yodo-parrafo1{
+	position:absolute;
+	top: 27px;
+	left: 1px;
+	width: 380px;
+	height: 90px;
+}
+
+div#yodo-parrafo2{
+	position:absolute;
+	top: 134px;
+	left: 1px;
+	width: 380px;
+	height: 50px;
+}
+
+div#yodo-parrafo3{
+	position:absolute;
+	top: 199px;
+	left: 1px;
+	width: 380px;
+	height: 65px;
+}
+
+div#marco-yodo-circular2{
+	top: 38px; 
+	left: 42px;
+	position:absolute;
+	
+}
+
+button#yodo-boton-circular2{	
+	width: 125px;
+	height: 125px;
+	border-radius: 125px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#yodo-boton-circular2:focus {
+	outline:0 !important;
+}
+
+/* ACIDO FOLICO */
+
+div#acidofolico{
+	width: 650px;
+	height: 435px;
+	top: 185px;
+	left: 345px;
+	position:absolute;
+	
+}
+
+div#acidofolico-blanco{
+	width: 630px;
+	height: 345px;
+	top: 60px;
+	left: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+}
+
+div#acidofolico-borde-verde-punteado{
+	width: 614px;
+	height: 335px;
+	top: 3px;
+	left: 6px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #d5dd37;
+	position:absolute;
+	box-shadow: inset 5px 5px 10px #eaeaea;
+}
+
+div#acidofolico-tira-verde{
+	width: 622px;
+	height: 50px;
+	top: 340px;
+	left: 18px;
+	background-color: #d3da39;
+	position:absolute;
+	box-shadow: 0px 0px 25px #BFC1BD;
+}
+
+div#acidofolico-tira-verde-oscura{
+	width: 622px;
+	height: 42px;
+	top: 2px;
+	left: px;
+	background-color: #c0c731;
+	position:absolute;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: #316db3;
+}
+
+div#marco-acidofolico-circular{
+	top: 520px; 
+	left: 440px;
+	position:absolute;
+	
+}
+
+button#acidofolico-boton-circular{	
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#acidofolico-boton-circular:focus {
+	outline:0 !important;
+}
+
+div#imagen-acidofolico{
+	position:absolute;
+	top: 35px;
+	left: 40px;
+}
+
+div#acidofolico-subtitulo{
+	position:absolute;
+	top: 205px;
+	left: 68px;
+}
+
+label#acidofolico-subtitulo{
+	font-family: "OptaneBold";
+	color: #3ea9f5;
+	font-size: 26px;
+}
+
+div#acidofolico-puntos-verdes{
+	position:absolute;
+	width: 42px;
+	height: 270px;
+	top: 10px;
+	left: 190px;
+	
+}
+
+div#acidofolico-punto1{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 29.5px;
+	left: 15px;	
+}
+
+div#acidofolico-punto2{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 119px;
+	left: 15px;	
+}
+
+div#acidofolico-punto3{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 190px;
+	left: 15px;	
+}
+
+label#acidofolico-texto-azul{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 19px;
+}
+
+label#acidofolico-texto-gris{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 20px;
+}
+
+div#acidofolico-letras{
+	position:absolute;
+	width: 385px;
+	height: 270px;
+	top: 10px;
+	left: 235px;
+	
+}
+
+div#acidofolico-parrafo1{
+	position:absolute;
+	top: 26px;
+	left: 1px;
+	width: 380px;
+	height: 70px;
+	
+}
+
+div#acidofolico-parrafo2{
+	position:absolute;
+	top: 116px;
+	left: 1px;
+	width: 380px;
+	height: 50px;
+	
+}
+
+div#acidofolico-parrafo3{
+	position:absolute;
+	top: 186px;
+	left: 1px;
+	width: 380px;
+	height: 50px;
+	
+}
+
+div#marco-acidofolico-circular2{
+	top: 38px; 
+	left: 42px;
+	position:absolute;
+	
+}
+
+button#acidofolico-boton-circular2{	
+	width: 125px;
+	height: 125px;
+	border-radius: 125px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#acidofolico-boton-circular2:focus {
+	outline:0 !important;
+}
+
+/* OMEGA3 */
+
+div#omega3{
+	width: 680px;
+	height: 435px;
+	top: 185px;
+	left: 315px;
+	position:absolute;
+	
+}
+
+div#omega3-blanco{
+	width: 660px;
+	height: 405px;
+	top: 10px;
+	left: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+}
+
+div#omega3-borde-verde-punteado{
+	width: 644px;
+	height: 395px;
+	top: 3px;
+	left: 6px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #d5dd37;
+	position:absolute;
+	box-shadow: inset 5px 5px 10px #eaeaea;
+}
+
+div#omega3-tira-verde{
+	width: 665px;
+	height: 50px;
+	top: 350px;
+	left: 5px;
+	background-color: #d3da39;
+	position:absolute;
+	box-shadow: 0px 0px 25px #BFC1BD;
+}
+
+div#omega3-tira-verde-oscura{
+	width: 665px;
+	height: 41px;
+	top: 3px;
+	left: px;
+	background-color: #c0c731;
+	position:absolute;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-color: #316db3;
+}
+
+div#marco-omega3-circular{
+	top: 428px; 
+	left: 625px;
+	position:absolute;
+	
+}
+
+button#omega3-boton-circular{	
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#omega3-boton-circular:focus {
+	outline:0 !important;
+}
+
+div#imagen-omega3{
+	position:absolute;
+	top: -15px;
+	left: 40px;
+}
+
+div#omega3-subtitulo{
+	position:absolute;
+	top: 190px;
+	left: 55px;
+}
+
+label#omega3-subtitulo{
+	font-family: "OptaneBold";
+	color: #ff7aac;
+	font-size: 30px;
+}
+
+div#omega3-puntos-verdes{
+	position:absolute;
+	width: 42px;
+	height: 320px;
+	top: 10px;
+	left: 190px;
+	
+}
+
+div#omega3-punto1{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 12.5px;
+	left: 15px;	
+}
+
+div#omega3-punto2{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 107.5px;
+	left: 15px;	
+}
+
+div#omega3-punto3{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 182.5px;
+	left: 15px;	
+}
+
+div#omega3-punto4{
+	background: #d9df20;
+	position:absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	top: 258.5px;
+	left: 15px;	
+}
+
+label#omega3-texto-azul{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 19px;
+}
+
+label#omega3-texto-gris{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 20px;
+}
+
+div#omega3-letras{
+	position:absolute;
+	width: 410px;
+	height: 320px;
+	top: 10px;
+	left: 235px;
+	
+}
+
+div#omega3-parrafo1{
+	position:absolute;
+	top: 10px;
+	left: 1px;
+	width: 405px;
+	height: 75px;
+	
+}
+
+div#omega3-parrafo2{
+	position:absolute;
+	top: 105px;
+	left: 1px;
+	width: 405px;
+	height: 55px;
+	
+}
+
+div#omega3-parrafo3{
+	position:absolute;
+	top: 180px;
+	left: 1px;
+	width: 405px;
+	height: 55px;
+	
+}
+
+div#omega3-parrafo4{
+	position:absolute;
+	top: 255px;
+	left: 1px;
+	width: 405px;
+	height: 55px;
+	
+}
+
+div#marco-omega3-circular2{
+	top: 28px; 
+	left: 42px;
+	position:absolute;
+	
+}
+
+button#omega3-boton-circular2{	
+	width: 125px;
+	height: 125px;
+	border-radius: 125px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#omega3-boton-circular2:focus {
+	outline:0 !important;
+}
+
+/* VITAMINAD */
+
+div#vitaminaD{
+	width: 725px;
+	height: 390px;
+	top: 220px;
+	left: 290px;
+	position:absolute;
+}
+
+div#vitaminaD-blanco{
+	width: 705px;
+	height: 370px;
+	top: 10px;
+	left: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+}
+
+div#vitaminaD-borde-verde-punteado{
+	width: 689px;
+	height: 360px;
+	top: 3px;
+	left: 6px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #d5dd37;
+	position:absolute;
+	box-shadow: inset 5px 5px 10px #eaeaea;
+}
+
+div#vitaminaD-tira-verde{
+	width: 705px;
+	height: 40px;
+	top: 325px;
+	left: 10px;
+	background-color: #d3da39;
+	position:absolute;
+	box-shadow: 0px 0px 25px #BFC1BD;
+}
+
+div#vitaminaD-tira-verde-oscura{
+	width: 705px;
+	height: 31px;
+	top: 3px;
+	left: px;
+	background-color: #c0c731;
+	position:absolute;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: #316db3;
+}
+
+div#marco-vitaminaD-circular{
+	top: 485px; 
+	left: 720px;
+	position:absolute;
+	
+}
+
+button#vitaminaD-boton-circular{	
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#vitaminaD-boton-circular:focus {
+	outline:0 !important;
+}
+
+div#imagen-vitaminaD{
+	position:absolute;
+	top: -15px;
+	left: 40px;
+}
+
+div#vitaminaD-subtitulo{
+	position:absolute;
+	top: 150px;
+	left: 85px;
+}
+
+div#vitaminaD-subtitulo2{
+	position:absolute;
+	top: 180px;
+	left: 65px;
+}
+
+div#vitaminaD-subtitulo3{
+	position:absolute;
+	top: 210px;
+	left: 57px;
+}
+
+label#vitaminaD-subtitulo{
+	font-family: "OptaneBold";
+	color:  #8bc53e;
+	font-size: 26px;
+}
+
+div#vitaminaD-puntos-verdes{
+	position:absolute;
+	width: 42px;
+	height: 300px;
+	top: 10px;
+	left: 190px;
+	
+}
+
+div#vitaminaD-punto1{
+	background: #d9df20;
+	position:absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	top: 35px;
+	left: 15px;	
+}
+
+div#vitaminaD-punto2{
+	background: #d9df20;
+	position:absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	top: 100px;
+	left: 15px;	
+}
+
+div#vitaminaD-punto3{
+	background: #d9df20;
+	position:absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	top: 196px;
+	left: 15px;	
+}
+
+label#vitaminaD-texto-azul{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 17.5px;
+}
+
+label#vitaminaD-texto-gris{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 17.5px;
+}
+
+div#vitaminaD-letras{
+	position:absolute;
+	width: 455px;
+	height: 300px;
+	top: 10px;
+	left: 235px;
+	
+}
+
+div#vitaminaD-parrafo1{
+	position:absolute;
+	top: 30px;
+	left: 1px;
+	width: 450px;
+	height: 45px;
+		
+}
+
+div#vitaminaD-parrafo2{
+	position:absolute;
+	top: 95px;
+	left: 1px;
+	width: 450px;
+	height: 85px;
+		
+}
+
+div#vitaminaD-parrafo3{
+	position:absolute;
+	top: 190px;
+	left: 1px;
+	width: 450px;
+	height: 70px;
+		
+}
+
+
+div#marco-vitaminaD-circular2{
+	top: 28px; 
+	left: 42px;
+	position:absolute;
+	
+}
+
+button#vitaminaD-boton-circular2{	
+	width: 125px;
+	height: 125px;
+	border-radius: 125px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#vitaminaD-boton-circular2:focus {
+	outline:0 !important;
+}
+
+/* vitaminaE */
+
+div#vitaminaE{
+	width: 650px;
+	height: 435px;
+	top: 185px;
+	left: 345px;
+	position:absolute;
+	
+}
+
+div#vitaminaE-blanco{
+	width: 570px;
+	height: 305px;
+	top: 90px;
+	left: 30px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+}
+
+div#vitaminaE-borde-verde-punteado{
+	width: 555px;
+	height: 295px;
+	top: 3px;
+	left: 6px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #d5dd37;
+	position:absolute;
+	box-shadow: inset 5px 5px 10px #eaeaea;
+}
+
+div#vitaminaE-tira-verde{
+	width: 570px;
+	height: 40px;
+	top: 342px;
+	left: 30px;
+	background-color: #d3da39;
+	position:absolute;
+	box-shadow: 0px 0px 25px #BFC1BD;
+}
+
+div#vitaminaE-tira-verde-oscura{
+	width: 570px;
+	height: 35px;
+	top: 1px;
+	left: px;
+	background-color: #c0c731;
+	position:absolute;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: #316db3;
+}
+
+div#marco-vitaminaE-circular{
+	top: 502px; 
+	left: 859px;
+	position:absolute;
+	
+}
+
+button#vitaminaE-boton-circular{	
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#vitaminaE-boton-circular:focus {
+	outline:0 !important;
+}
+
+div#imagen-vitaminaE{
+	position:absolute;
+	top: 65px;
+	left: 40px;
+}
+
+div#vitaminaE-subtitulo{
+	position:absolute;
+	top: 225px;
+	left: 75px;
+}
+
+div#vitaminaE-subtitulo2{
+	position:absolute;
+	top: 255px;
+	left: 65px;
+}
+
+div#vitaminaE-subtitulo3{
+	position:absolute;
+	top: 285px;
+	left: 68px;
+}
+
+label#vitaminaE-subtitulo{
+	font-family: "OptaneBold";
+	color:  #faaf3a;
+	font-size: 26px;
+}
+
+div#vitaminaE-puntos-verdes{
+	position:absolute;
+	width: 42px;
+	height: 200px;
+	top: 10px;
+	left: 150px;
+	
+}
+
+div#vitaminaE-punto1{
+	background: #d9df20;
+	position:absolute;
+	width: 17px;
+	height: 17px;
+	border-radius: 17px;
+	top: 50px;
+	left: 15px;
+	
+}
+
+label#vitaminaE-texto-azul{
+	font-family: "OptaneBold";
+	color: #0066a1;
+	font-size: 22px;
+}
+
+label#vitaminaE-texto-gris{
+	font-family: "OptaneRegular";
+	color: #6c6d6f;
+	font-size: 22px;
+}
+
+div#vitaminaE-letras{
+	position:absolute;
+	width: 365px;
+	height: 210px;
+	top: 10px;
+	left: 195px;
+	
+}
+
+div#vitaminaE-parrafo1{
+	position:absolute;
+	top: 45px;
+	left: 1px;
+	width: 360px;
+	height: 155px;
+	
+}
+
+div#marco-vitaminaE-circular2{
+	top: 98px; 
+	left: 47px;
+	position:absolute;
+}
+
+button#vitaminaE-boton-circular2{	
+	width: 125px;
+	height: 125px;
+	border-radius: 125px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+button#vitaminaE-boton-circular2:focus {
+	outline:0 !important;
+}

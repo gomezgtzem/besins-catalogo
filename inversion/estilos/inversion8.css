@@ -1,0 +1,223 @@
+/*Fuentes*/
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Hv";
+  src: url("../fuentes/HelveticaNeueLTStd-Hv.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion3.png);
+}
+div#Arriba{
+	/*border: 3px solid green;*/
+	width: 930px;
+    height: 530px;
+	top: 160px;
+	left: 30px;
+	position: absolute;
+}
+div#marco-izq{
+	/*border: 3px solid blue;*/
+	width: 450px;
+    height: 500px;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+div#marco-tira-gris{
+	position:absolute;
+	top: 0px;
+	left: -45px;
+}
+img#tira-gris{
+	width: 520px;
+	height: 68px;
+}
+div#marco-presentacion-comercial{
+	position:absolute;
+	top:10px;
+	left:60px;
+}
+
+label#letra-presentacion{
+	font-family: ClementePDai-Regular;
+	font-size: 30px;
+	color: #9E2038;
+}
+div#marco-caja{
+	/**/
+	width: 310px;
+    height: 270px;
+	top: 90px;
+	left: 25px;
+	position: absolute;
+}
+img#caja{
+	width: 380px;
+	height: 300px;
+}
+div#marco-debajo{
+	position:absolute;
+	top: 380px;
+	left: -10px;
+	width: 660px;
+	height: 130px;	
+}
+div#marco-renglon1{
+	position:absolute;
+	width: 580px;
+	top: 20px;
+	left: 60px;	
+}
+
+div#marco-renglon2{
+	position:absolute;
+	width: 580px;
+	top: 45px;
+	left: 60px;	
+}
+
+div#marco-renglon3{
+	position:absolute;
+	width: 580px;
+	top: 40px;
+	left: 55px;	
+}
+div#marco-renglon4{
+	position:absolute;
+	width: 580px;
+	top: 100px;
+	left: 180px;	
+}
+label#letra{
+	font-family: ClementePDai-Regular;
+	font-size: 23px;
+	color: #FFFFFF;
+}
+label#letra-med{
+	font-family: ClementePDai-Regular;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+label#letra-chica{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+label#letra-grande{
+	font-family: ClementePDai-Regular;
+	font-size: 60px;
+	color: #FFFFFF;
+}
+div#marco-der{
+	/*border: 3px solid white;*/
+	width: 480px;
+    height: 500px;
+	top: 10px;
+	left: 430px;
+	position: absolute;
+}
+div#marco-texto-blister{
+	/*border: 3px solid blue;*/
+	width: 450px;
+    height: 190px;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+div#linea1{
+	width: 450px;
+    height: 150px;
+	top: 0px;
+	left: 100px;
+	position: absolute;
+}
+div#linea1-1{
+	width: 450px;
+    height: 150px;
+	top: 35px;
+	left: 245px;
+	position: absolute;
+}
+div#linea2{
+	width: 450px;
+    height: 150px;
+	top: 60px;
+	left: 100px;
+	position: absolute;
+}
+div#linea2-1{
+	width: 450px;
+    height: 150px;
+	top: 95px;
+	left: 180px;
+	position: absolute;
+}
+div#linea3{
+	width: 450px;
+    height: 150px;
+	top: 135px;
+	left: 70px;
+	position: absolute;
+}
+div#marco-blister1{
+	
+	width: 210px;
+    height: 120px;
+	top: 210px;
+	left: 40px;
+	position: absolute;	
+}
+div#marco-blister2{
+	
+	width: 210px;
+    height: 120px;
+	top: 210px;
+	left: 280px;
+	position: absolute;	
+}
+div#marco-blister3{
+	
+	width: 210px;
+    height: 120px;
+	top: 320px;
+	left: 40px;
+	position: absolute;	
+}
+div#marco-blister4{
+	
+	width: 210px;
+    height: 120px;
+	top: 320px;
+	left: 280px;
+	position: absolute;	
+}
+div#marco-blister5{
+	
+	width: 210px;
+    height: 120px;
+	top: 430px;
+	left: 40px;
+	position: absolute;	
+}
+div#marco-blister6{
+	
+	width: 210px;
+    height: 120px;
+	top: 430px;
+	left: 280px;
+	position: absolute;	
+}
+img#blister{
+	width: 240px;
+	height: 120px;
+}

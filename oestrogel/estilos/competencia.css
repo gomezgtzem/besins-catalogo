@@ -1,0 +1,150 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Roman";
+  src: url("../fuentes/HelveticaNeueLTPro-Roman.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel3.png);
+}
+
+div#marco-control-competencia{
+	margin-top: 615px;
+	margin-left: 350px;
+	position:absolute;
+}
+
+/*Div Marco Arriba*/
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+/*referencia 1FDA*/
+div#marco-oestrogel{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 570px;
+  position:absolute;
+}
+img#oestrogel1{
+	margin-top: 70px;
+	margin-left: 400px;
+	width: 170px;
+  height: 50px;
+  position:absolute;
+}
+
+/*La terapia más eficaz y segura 2,3*/
+div#renglon1{
+	margin-top: 120px;
+	margin-left: 320px;
+  position:absolute;
+}
+/*La terapia & para un*/
+label#letra1{
+	font-family: "Montserrat-Light";
+	color: #543CA8;
+	width: 240px;
+    height: 100px;
+	font-size: 20px;
+}
+/*para un climaterio feliz*/
+div#renglon2{
+	margin-top: 140px;
+	margin-left: 360px;
+  position:absolute;
+}
+/*más eficas y segura 2,3 */
+label#letra2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+}
+/*climaterio feliz*/
+label#letra3{
+	font-family: "Montserrat-SemiBold";
+	color: #543CA8;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+}
+img#touch{
+	width: 60px;
+    height: 60px;
+	margin-top: 100px;
+	margin-left: 800px;
+	position: absolute;
+	border-radius: 85px;
+}
+img#oestrogel{
+  width: 90px;
+  height: 40px;
+}
+.marco-beneficios{
+  margin-top: 205px;
+  margin-left: 557px;
+  position:absolute;
+}
+div#marco-pop1{
+	width: 10px;
+    height: 10px;
+	margin-top: 90px;
+	margin-left: 630px;
+	position:absolute;
+}
+label#pop1{
+	font-family: "Montserrat-Light";
+	color: red;
+	width: 240px;
+    height: 100px;
+	font-size: 9px;
+	vertical-align:super;
+}
+div#marco-pop2{
+	width: 10px;
+    height: 10px;
+	margin-top: 100px;
+	margin-left: 690px;
+	position:absolute;
+	vertical-align:super;
+}
+div#marco-pop3{
+	width: 10px;
+    height: 10px;
+	margin-top: 140px;
+	margin-left: 702px;
+	position:absolute;
+}
+.pop2{
+	font-family: "Montserrat-SemiBold";
+	color: #04A292;
+	width: 290px;
+    height: 130px;
+	font-size: 9px;
+  vertical-align:super;
+}
+.pop3{
+	font-family: "Montserrat-SemiBold";
+	color: #6F6F6E;
+	width: 290px;
+    height: 130px;
+	font-size: 9px;
+  vertical-align:super;
+}

@@ -1,0 +1,113 @@
+/*Fuentes*/
+@font-face {
+  font-family: "OptaneRegular";
+  src: url("../fuentes/OptaneRegular.ttf");
+}
+
+button#boton{
+	font-size: 12.5px;
+    font-family: "OptaneRegular";
+    width:88px;
+    height:25px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	background-image:url("../imagenes/boton.png");
+	white-space: normal;
+	text-align: center;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #8cb460;
+}
+
+div#marco-control{
+	margin-top: 605px;
+	margin-left: 350px;
+	position:absolute;
+}
+
+button#boton:focus {
+	outline:0 !important;
+}
+button#boton:active {
+	color: #000000;
+	background: rgba(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #3a7999;
+}
+div#Botones{
+	/*background-color: yellow;*/
+	width: 150px;
+    height: 55px;
+	margin-top: 665px;
+	position:absolute;
+}
+div#marco-home{
+	margin-top: 25px;
+	margin-left: 20px;
+	position:absolute;
+}
+img#home{
+	width:32px;
+    height:32px;
+}
+div#marco-atras{
+	margin-top: 25px;
+	margin-left: 65px;
+	position:absolute;
+}
+img#atras{
+	width:32px;
+    height:32px;
+}
+div#marco-adelante{
+	margin-top: 25px;
+	margin-left: 100px;
+	position:absolute;
+}
+img#adelante{
+	width:32px;
+    height:32px;
+}
+div#marco-formula{
+	margin-top: 30px;
+	margin-left: 150px;
+	position:absolute;
+}
+div#marco-yodo{
+	margin-top: 30px;
+	margin-left: 255px;
+	position:absolute;
+}
+
+
+div#marco-acidofolico{
+	margin-top: 30px;
+	margin-left: 365px;
+	position:absolute;
+}
+div#marco-omega3{
+	margin-top: 30px;
+	margin-left: 470px;
+	position:absolute;
+}
+div#marco-vitaminad3{
+	margin-top: 30px;
+	margin-left: 580px;
+	position:absolute;
+}
+div#marco-vitaminae{
+	margin-top: 30px;
+	margin-left: 685px;
+	position:absolute;
+}
+div#marco-dosis{
+	margin-top: 30px;
+	margin-left: 790px;
+	position:absolute;
+}
+div#marco-referencias{
+	margin-top: 30px;
+	margin-left: 895px;
+	position:absolute;
+}
+

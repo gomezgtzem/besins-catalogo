@@ -1,0 +1,82 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/fondoOestrogel2.png);
+}
+
+
+
+/*Div Marco Arriba*/
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 1000px;
+    height: 663px;
+	margin-top: px;
+	margin-left: px;
+	position:absolute;
+}
+/*referencia 1FDA*/
+div#marco-pop-oestrogel{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 635px;
+  position:absolute;
+}
+
+img#touch{
+	width: 60px;
+    height: 60px;
+	margin-top: 100px;
+	margin-left: 800px;
+	position: absolute;
+	border-radius: 85px;
+}
+/*POPUPS*/
+
+div#marco-pop3a{
+  width: 10px;
+  height: 10px;
+  margin-top: 220px;
+  margin-left: 648px;
+  position:absolute;
+}
+div#marco-pop4{
+  width: 10px;
+    height: 10px;
+  margin-top: 220px;
+  margin-left: 656px;
+  position:absolute;
+}
+div#marco-pop4a{
+  width: 10px;
+    height: 10px;
+  margin-top: 220px;
+  margin-left: 807px;
+  position:absolute;
+}
+div#marco-pop7{
+  width: 10px;
+    height: 10px;
+  margin-top: 220px;
+  margin-left: 815px;
+  position:absolute;
+}
+label#pop3{
+  font-family: "Montserrat-Light";
+  color: #FFFFFF;
+  width: 240px;
+  height: 100px;
+  font-size: 10px;
+  vertical-align:super;
+}

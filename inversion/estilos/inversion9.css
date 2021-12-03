@@ -1,0 +1,136 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "ClementePDai-Regular";
+  src: url("../fuentes/ClementePDai-Regular.ttf");
+}
+
+/*Imagen de fondo*/
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/inversion5.png);
+}
+div#arriba{
+	/*border: 3px solid green;*/
+	width: 650px;
+	height: 120px;
+	position: absolute;
+	top: 60px;
+	left: 20px;
+}
+div#marco-inversion{
+	position:absolute;
+	top: 15px;
+	left: 200px;
+}
+img#inversion{
+	width: 320px;
+	height: 100px;
+}
+div#marco-texto{
+	/*border: 3px solid green;*/
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 230px;
+	left: 70px;
+	text-align: justify-all;
+}
+div#capsula1{
+	position:absolute;
+    top: 20px;
+    left: 15px;
+}
+img#capsula{
+	width: 15px;
+	height: 14px;
+}
+div#texto1{
+	position:absolute;
+    top: 10px;
+    left: 38px;
+}
+div#capsula2{
+	position:absolute;
+    top: 70px;
+    left: 15px;
+}
+div#texto2{
+	position:absolute;
+    top: 60px;
+    left: 38px;
+}
+div#texto3{
+	position:absolute;
+    top: 100px;
+    left: 38px;
+}
+div#texto4{
+	position:absolute;
+    top: 125px;
+    left: 38px;
+}
+div#texto5{
+	position:absolute;
+    top: 145px;
+    left: 38px;
+}
+div#capsula3{
+	position:absolute;
+    top: 205px;
+    left: 15px;
+}
+div#texto6{
+	position:absolute;
+    top: 195px;
+    left: 38px;
+}
+div#texto7{
+	position:absolute;
+    top: 225px;
+    left: 38px;
+}
+div#capsula4{
+	position:absolute;
+    top: 270px;
+    left: 15px;
+}
+div#texto8{
+	position:absolute;
+    top: 260px;
+    left: 38px;
+}
+div#capsula5{
+	position:absolute;
+    top: 325px;
+    left: 15px;
+}
+div#texto9{
+	position:absolute;
+    top: 315px;
+    left: 38px;
+}
+div#texto10{
+	position:absolute;
+    top: 345px;
+    left: 38px;
+}
+label#texto-normal{
+	font-family: HelveticaNeueLTPro-Roman;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+label#texto-grande{
+	font-family: ClementePDai-Regular;
+	font-size: 27px;
+	color: #FFFFFF;
+}

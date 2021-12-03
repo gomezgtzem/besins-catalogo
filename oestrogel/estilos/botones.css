@@ -1,0 +1,109 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+button#boton{
+	font-size: 10px;
+    font-family: "Montserrat-Light";
+    width:110px;
+    height:35px;
+	border: 2px solid #029896;
+	color: #FFFFFF;
+	border-radius: 9px;
+	background: -webkit-linear-gradient(#39E3EB,#029896,#39E3EB);
+	white-space: normal;
+}
+button#boton:focus {
+	outline:0 !important;
+}
+button#boton:active {
+	color: #000000;
+	background: rgba(0,0,0,0);
+	white-space: normal;
+	box-shadow: inset 0 0 0 1px #3a7999;
+}
+
+div#marco-control{
+	margin-top: 605px;
+	margin-left: 350px;
+	position:absolute;
+}
+
+div#Botones{
+	/*background-color: yellow;*/
+	width: 1000px;
+    height: 55px;
+	margin-top: 665px;
+	position:absolute;
+}
+div#marco-home{
+	margin-top: 7px;
+	margin-left: 40px;
+	position:absolute;
+}
+img#home{
+	width:32px;
+    height:32px;
+}
+div#marco-pipe{
+	margin-top: 4px;
+	margin-left: 90px;
+	position:absolute;
+}
+img#pipe{
+	height:42px;
+}
+div#marco-atras{
+	margin-top: 7px;
+	margin-left: 115px;
+	position:absolute;
+}
+img#atras{
+	width:32px;
+    height:32px;
+}
+div#marco-adelante{
+	margin-top: 7px;
+	margin-left: 170px;
+	position:absolute;
+}
+img#adelante{
+	width:32px;
+    height:32px;
+}
+div#marco-beneficios{
+	margin-top: 6px;
+	margin-left: 230px;
+	position:absolute;
+}
+div#marco-competencia{
+	margin-top: 6px;
+	margin-left: 350px;
+	position:absolute;
+}
+div#marco-dosificacions{
+	margin-top: 6px;
+	margin-left: 470px;
+	position:absolute;
+}
+div#marco-pacientes{
+	margin-top: 6px;
+	margin-left: 590px;
+	position:absolute;
+}
+div#marco-dosificacionc{
+	margin-top: 6px;
+	margin-left: 710px;
+	position:absolute;
+}
+div#marco-referencias{
+	margin-top: 6px;
+	margin-left: 830px;
+	position:absolute;
+}

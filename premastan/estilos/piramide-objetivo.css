@@ -1,0 +1,554 @@
+@font-face {
+  font-family: "Dulcelin";
+  src: url("../fuentes/Dulcelin.otf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fuentes/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fuentes/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../fuentes/Comfortaa-Regular.ttf");
+}
+
+
+div#marco-sombra4{
+	position:absolute;
+	top:460px;
+	left:341.1px;
+	width: 50px;
+	height: 50px;
+	background-color: #2E4C57;
+	transform: rotateZ(117deg); /* Standard syntax */
+}
+
+div#marco-sombra5{
+	position:absolute;
+	top:460px;
+	left:365px;
+	width: 150px;
+	height: 50px;
+	background-color: #2E4C57;
+}
+
+div#marco-sombra6{
+	position:absolute;
+	top:470px;
+	left:455px;
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	transform: rotateZ(20deg); /* Standard syntax */
+}
+
+div#marco-sombra7{
+	position:absolute;
+	top:594px;
+	left:280px;
+	width: 235px;
+	height: 14px;
+	background-color: #2E4C57;
+	transform: rotateZ(2deg); /* Standard syntax */
+}
+
+div#piramide{
+	position:absolute;
+	width: 770px;
+    height: 480px;
+	top: 115px;
+	left: 155px;	
+	/*border: 3px solid yellow;*/
+}
+
+div#base-izquierda {
+	position:absolute;
+	top: 340px;
+	left: 110px;
+    width: 180px;   /* largo */
+    height: 0px;
+    border-left: 60px solid transparent; /* grados */
+    border-bottom: 110px solid #E99AAD;	/* ancho */
+}
+
+div#base-derecha {
+	position:absolute;
+	top: 340px;
+	left: 350px;
+    width: 180px;   /* largo */
+    height: 0px;
+    border-right: 60px solid transparent; /* grados */
+    border-bottom: 110px solid #EA8698;	/* ancho */
+}
+
+div#centro-izquierda {
+	position:absolute;
+	top: 195px;
+	left: 175px;
+    width: 115px;   /* largo */
+    height: 0px;
+    border-left: 70px solid transparent; /* grados */
+    border-bottom: 135px solid #E99AAD;	/* ancho */
+}
+
+div#centro-derecha {
+	position:absolute;
+	top: 195px;
+	left: 350px;
+    width: 106px;   /* largo */
+    height: 0px;
+    border-right: 70px solid transparent; /* grados */
+    border-bottom: 135px solid #EA8698;	/* ancho */
+}
+
+div#area-dibujo{
+	position:absolute;
+	top: px;
+	left: 230px;
+    width: 300px;
+    height: 250px;  
+}
+
+div#rombo{
+	position:absolute;
+	margin-top: 155px;
+	margin-left: 166px;
+	width: 30px; 
+     height: 30px; 
+     border: 1px solid #C06D84; 
+     background: #FFFFFF;
+     -webkit-transform: rotate(135deg) skew(32deg, 30deg);
+     -moz-transform: rotate(135deg) skew(32deg, 30deg);
+     -ms-transform: rotate(135deg) skew(32deg, 30deg);
+     -o-transform: rotate(135deg) skew(32deg, 30deg);
+     transform: rotate(135deg) skew(32deg, 30deg);
+	 top: -110px;
+	 left: -130px;
+	 
+}
+
+div#contenido{
+	width: 370px;
+	height: 440px;
+	position:absolute;
+	top: 140px;
+	left: 525px;
+	/*border: 3px solid yellow;*/
+}
+
+div#rombo{
+	position:absolute;
+	width: 40px; 
+     height: 40px; 
+     border: 2px solid #C06D84; 
+     background: #FFFFFF;
+     -webkit-transform: rotate(135deg) skew(32deg, 30deg);
+     -moz-transform: rotate(135deg) skew(32deg, 30deg);
+     -ms-transform: rotate(135deg) skew(32deg, 30deg);
+     -o-transform: rotate(135deg) skew(32deg, 30deg);
+     transform: rotate(135deg) skew(32deg, 30deg);
+	 
+}
+div#contorno-rosa{
+	position:absolute;
+	top: 35px;
+	left: 58px;
+	width: 180px; 
+    height: 60px; 
+	border: .7px solid #C06D84;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+div#fondo-rosa{
+	position:absolute;
+	top: 40px;
+	left: 63px;
+	width: 170px; 
+    height: 50px;
+	background-color: #E98698;
+	border: 0px;
+	border-radius: 20px;
+	
+}
+
+div#marco-resultado{
+	position:absolute;
+	top:48px;
+	left:90px;
+}
+
+label#resultado{
+	font-family: Comfortaa-Regular;
+	font-size: 15px;
+	color: #FFFFFF;	
+}
+
+div#marco-letra-tratamiento{
+	position:absolute;
+	top:68px;
+	left:90px;
+}
+
+label#letra-tratamiento{
+	font-family: Comfortaa-Regular;
+	font-size: 15px;
+	color: #FFFFFF;	
+}
+
+div#marco-estilo{
+	position:absolute;
+	top: 174px;
+	left: 482px;
+	width: 40px;
+	height: 40px;
+}
+
+label#estilo{
+	font-family: Comfortaa-Bold;
+	font-size: 12.5px;
+	color: #FFFFFF;	
+}
+
+div#marco-vida{
+	position:absolute;
+	top: 191px;
+	left: 478.5px;
+	width: 60px;
+	height: 40px;
+}
+
+label#vida{
+	font-family: Comfortaa-Bold;
+	font-size: 12.5px;
+	color: #FFFFFF;	
+}
+
+div#marco-bienestar{
+	position:absolute;
+	top: 251px;
+	left: 464px;
+	width: 60px;
+	height: 40px;
+}
+
+label#bienestar{
+	font-family: Comfortaa-Bold;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+
+div#marco-emocional{
+	position:absolute;
+	top: 272px;
+	left: 458px;
+	width: 60px;
+	height: 40px;
+}
+
+label#emocional{
+	font-family: Comfortaa-Bold;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+
+div#marco-controol{
+	position:absolute;
+	top: 340px;
+	left: 445px;
+	width: 60px;
+	height: 40px;
+}
+
+label#controol{
+	font-family: Comfortaa-Bold;
+	font-size: 22px;
+	color: #FFFFFF;	
+}
+
+div#marco-sintoma{
+	position:absolute;
+	top: 370px;
+	left: 420px;
+	width: 60px;
+	height: 40px;
+}
+
+label#sintoma{
+	font-family: Comfortaa-Bold;
+	font-size: 22px;
+	color: #FFFFFF;	
+}
+
+div#marco-dolor{
+	position:absolute;
+	top: 400px;
+	left: 433px;
+}
+
+label#dolor{
+	font-family: Comfortaa-Bold;
+	font-size: 22px;
+	color: #FFFFFF;	
+}
+
+div#marco-diagnostico{
+	position:absolute;
+	top: 480px;
+	left: 380px;
+}
+
+label#diagnostico{
+	font-family: Comfortaa-Bold;
+	font-size: 32px;
+	color: #FFFFFF;	
+}
+
+div#marco-cancer{
+	position:absolute;
+	top: 525px;
+	left: 330px;
+}
+
+label#cancer{
+	font-family: Comfortaa-Bold;
+	font-size: 20px;
+	color: #FFFFFF;	
+}
+
+
+div#marco-mas{
+	position:absolute;
+	top: 215px;
+	left: 485px;
+	width: 40px;
+	height: 40px;
+}
+
+button#boton-mas{
+	font-family: Comfortaa-Bold;
+	font-size: 40px;
+	color: #FFFFFF;
+    width:40px;
+    height:40px;
+	border: 0px;
+	background: transparent;
+}
+
+button#boton-mas:focus {
+	outline:0 !important;
+}
+
+div#area-dibujo2{
+	position:absolute;
+	top: 0px;
+	left:110px;
+    width: 260px;
+    height: 440px;
+	/*border: 1px solid blue;*/
+}
+
+div#contenido2{
+	width: 350px;
+	height: 180px;
+	position:absolute;
+	top: 380px;
+	left: 50px;
+	/*border: 3px solid #FC7D61;*/
+}
+
+div#borde-inferior{
+	width: 100px;
+	height: 50px;
+	position:absolute;
+	top: 95px;
+	left: 140px;
+	border-bottom: 3px solid #F1B9C7;
+}
+
+div#borde-inferior-curvo{
+	width: 30px;
+	height: 50px;
+	position:absolute;
+	top: 95px;
+	left: 75px;
+	border-bottom: 3px solid #F1B9C7;
+	border-bottom-left-radius: 9px;
+}
+
+div#borde-izquierdo-curvo{
+	width: 50px;
+	height: 125px;
+	position:absolute;
+	top: 22px;
+	left: 75px;
+	border-left: 3px solid #F1B9C7;
+	border-bottom-left-radius: 9px;
+	border-top-left-radius: 9px;
+}
+
+div#borde-superior-curvo{
+	width: 30px;
+	height: 50px;
+	position:absolute;
+	top: 22px;
+	left: 75px;
+	border-top: 3px solid #F1B9C7;
+	border-top-left-radius: 9px;
+	
+}
+
+div#borde-superior{
+	width: 125px;
+	height: 50px;
+	position:absolute;
+	top: 22px;
+	left: 178px;
+	border-top: 3px solid #F1B9C7;
+}
+
+div#marco-medico{
+	position:absolute;
+	top:10px;
+	left:111px;
+	
+}
+
+label#letra-medico{
+	font-family: Comfortaa-Regular;
+	font-size: 16px;
+	color: #E04669;
+}
+
+div#marco-dx{
+	position:absolute;
+	top:133px;
+	left:111px;
+	
+}
+
+label#letra-dx{
+	font-family: Comfortaa-Regular;
+	font-size: 16px;
+	color: #E04669;
+}
+
+div#marco-linea1{
+	position:absolute;
+	top: 213px;
+	left: 450px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea1{
+	height: 2px;
+	width: 109.5px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea2{
+	position:absolute;
+	top: 284px;
+	left: 407px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea2{
+	height: 3px;
+	width: 194px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea3{
+	position:absolute;
+	top: 310px;
+	left: 396px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea3{
+	height: 2px;
+	width: 215px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea4{
+	position:absolute;
+	top: 428px;
+	left: 334px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea4{
+	height: 3px;
+	width: 343px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea5{
+	position:absolute;
+	top: 455px;
+	left: 320px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea5{
+	height: 2px;
+	width: 369px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-linea6{
+	position:absolute;
+	top: 548px;
+	left: 270px;
+	height: 2px;
+	width: 58px;
+}
+hr#linea6{
+	height: 3px;
+	width: 470px;
+	background-color: #F7B8CB;
+	border: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+div#marco-imagen-mujer-izquierda{
+	top: 210px;
+	left: -20px;
+	position:absolute;
+}
+
+div#marco-imagen-mujer-derecha{
+	top: 200px;
+	left: 850px;
+	position:absolute;
+}
+
+img#imagen-mujer-derecha{
+	width: 165px;
+	height: 274px;
+}

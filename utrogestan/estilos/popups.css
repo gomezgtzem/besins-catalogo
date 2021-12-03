@@ -1,0 +1,126 @@
+/*Popups JavaScript*/
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -150px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/*POP GIRATORIO*/
+/*Popups JavaScript*/
+.popupa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popupa .popuptexta {
+  visibility: hidden;
+  width: 300px;
+  height: 40px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  top:20px;
+  left: -220px;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: rotateZ(-35deg);
+}
+/* Toggle this class - hide and show the popup */
+.popupa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/*
+1. Besins Healthcare [Internet]. 2016. Besins Healthcare México [Consultado el 16 de Abril 2018]. Disponible
+en: http:// www.besins-healthcare.com.mx
+2. Smitz J, et al. A prospective randomized comparison of intramuscular or intravaginal natural
+progesterone as a luteal phase and early pregnancy supplement. Hum Reprod.1992;7(2):168–75.
+3. Información Para Prescribir de Utrogestan®
+4. Cedars ML. Progesterone: Uses in ART and prevention of pregnancy loss. J Fam Pract. 2007:9-13.
+5. National Institute for Health and Care Excellence. Preterm labour and birth. NICE guideline. 2015:1-27.
+6. Sánchez O, et al. Parto Pretérmino. Guía de Práctica Clínica. COMEGO. 2015. Pp:250-85.
+7. Fonseca EB. et. al. Progesterone and the risk of preterm birth among women with a short cérvix. N Engl
+J Med. 2007;357 (5):462-9.
+8. Proctor A, et al. Effect of progesterone supplementation in early pregnancy on the pregnancy outcome
+after in vitro fertilization. Fertil Steril. 2006; 85(5):1550-52.
+9. López-Castrejón A, et al. Hemorragia uterina disfuncional de la adolescencia y su tratamiento con
+prosterona micronizada. Toko-Gin Pract. 2004;63(4):315-9.
+10. Simón JA. Introduction: An overview of progesterone and progestins. J Fam Pract 2007:3-5.
+11. Jiang Y, et al. The effects of progesterones on blood lipids in hormone replacement therapy. Lipids
+Health Dis. 2017;16(1):1-8
+*/

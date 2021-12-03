@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<LINK REL=StyleSheet HREF="../estilos/botones.css" TYPE="text/css" MEDIA=screen>
+	<LINK REL=StyleSheet HREF="../estilos/objetivo.css" TYPE="text/css" MEDIA=screen>
+	<LINK REL=StyleSheet HREF="../estilos/popups.css" TYPE="text/css" MEDIA=screen>	
+	<LINK REL=StyleSheet HREF="../estilos/piramide-objetivo.css" TYPE="text/css" MEDIA=screen>	
+</head>
+
+<body onLoad="dibujarCanvas();">
+
+<script src="../scripts/CLMStatereporter.js" type="text/javascript"></script>
+<script src="../scripts/objetivo.js" type="text/javascript"></script>
+<script src="../scripts/popups.js" type="text/javascript"></script>
+<script src="../scripts/mostrar-ocultar.js" type="text/javascript"></script>	
+
+<div id="marco-sombra1">
+</div>
+
+<div id="marco-sombra2">
+</div>
+
+<div id="marco-sombra3">
+</div>
+
+<div id="marco-sombra4">
+</div>
+
+<div id="marco-sombra6">
+</div>
+
+<div id="marco-sombra5">
+</div>
+
+<div id="marco-sombra7">
+</div>
+
+
+
+<div id="titulo">
+	<div id="marco-titulo-p1">
+		<label id="titulo"> Mastalgia </label>
+	</div>
+	<div id="marco-titulo-p2">
+		<label id="titulo"> Objetivo del tratamiento </label>
+	</div>
+	
+</div>
+
+<div id="marco-imagen-mujer-izquierda">
+	<img src="../imagenes/mujerizquierda2.png" />
+</div>
+
+<div id="arriba">
+	<div id="contenido2" >
+		<div id="borde-inferior">		
+		</div>
+		
+		<div id="borde-inferior-curvo">		
+		</div>
+		
+		<div id="borde-izquierdo-curvo">		
+		</div>
+		
+		<div id="borde-superior-curvo">		
+		</div>
+		
+		<div id="borde-superior">		
+		</div>
+		
+		<div id="marco-medico">
+			<label id="letra-medico"> Médico </label>
+		</div>
+		
+		<div id="marco-dx">
+			<label id="letra-dx"> Dx. </label>
+		</div>
+		
+	</div>
+	
+	<div id="piramide">
+		<div id="area-dibujo">
+			<canvas id="miCanvas" width="250" height="200" >Su navegador no soporta Canvas.</canvas>
+		</div>
+		
+		<div id="centro-izquierda">	
+		</div>
+		<div id="centro-derecha">	
+		</div>
+		
+		<div id="base-izquierda">	
+		</div>
+		<div id="base-derecha">	
+		</div>		
+	</div>
+	
+	<div id="marco-estilo">
+		<label id="estilo"> ESTILO </label> 
+	</div>
+	
+	<div id="marco-vida">
+		<label id="vida"> DE VIDA </label> 
+	</div>
+	
+	<div id="marco-bienestar">
+		<label id="bienestar"> BIENESTAR </label> 
+	</div>
+	
+	<div id="marco-emocional">
+		<label id="emocional"> EMOCIONAL </label> 
+	</div>
+	
+	<div id="marco-controol">
+		<label id="controol"> CONTROL </label> 
+	</div>
+	
+	<div id="marco-sintoma">
+		<label id="sintoma"> SINTOMÁTICO </label> 
+	</div>
+	
+	<div id="marco-dolor">
+		<label id="dolor"> DEL DOLOR </label> 
+	</div>
+	
+	<div id="marco-diagnostico">
+		<label id="diagnostico"> DIAGNÓSTICO</label> 
+	</div>
+	
+	<div id="marco-cancer">
+		<label id="cancer"> (SABER QUE NO TIENE CÁNCER) </label> 
+	</div>
+	
+	<div id="marco-mas">
+		<button id="boton-mas"> + </button>
+	</div>
+		
+	<div id="marco-linea1" >
+		<hr id="linea1">
+	</div>
+	
+	<div id="marco-linea2" >
+		<hr id="linea2">
+	</div>	
+	
+	<div id="marco-linea3" >
+		<hr id="linea3">
+	</div>
+	
+	<div id="marco-linea4" >
+		<hr id="linea4">
+	</div>
+	
+	<div id="marco-linea5" >
+		<hr id="linea5">
+	</div>
+	
+	<div id="marco-linea6" >
+		<hr id="linea6">
+	</div>
+	
+	<div id="contenido" >
+		<div id="contorno-rosa">
+		</div>
+		
+		<div id="rombo">	
+		</div>
+
+		<div id="fondo-rosa">
+		</div>
+		
+		<div id="marco-resultado">
+			<label id="resultado" > Resultado final </label>
+		</div>
+		
+		<div id="marco-letra-tratamiento">
+			<label id="letra-tratamiento" > del tratamiento </label>
+		</div>
+		
+		<div id="area-dibujo2">
+		<!-- style="border:1px solid red; -->
+			<canvas id="miCanvas2" width="255" height="440">Su navegador no soporta Canvas.</canvas>
+		</div>		
+	</div>
+</div>
+		<div id="marco-pop1">
+			<div class="popup" onclick="myFunction1()">
+				<label id="textopop">1</label>
+					<span class="popuptext" id="myPopup1">Mainero FE, et al. Mastalgia. Guía de Práctica Clínica. COMEGO 2015. Pp:101-115.</span>
+			</div>
+		</div>
+<div id="marco-imagen-mujer-derecha">
+	<img id="imagen-mujer-derecha" src="../imagenes/mujerderecha.png" />
+</div>
+	
+<div id="Botones">
+
+	<div id="marco-home">
+		<a href="premastan.html"><img id="home" src="../imagenes/home.png"></a>
+	</div>
+	
+	<div id="marco-pipe">
+			<img id="pipe" src="../imagenes/pipe.png">		
+	</div>
+	
+	<div id="marco-atras">
+		<a href="javascript:history.back(-1);"><img id="atras" src="../imagenes/atras.png"></a>		
+	</div>
+		
+	<div id="marco-adelante">
+		<a href="../html/tratamiento.html"><img id="adelante" src="../imagenes/adelante.png"></a>
+	</div>
+	
+	<div id="marco-objetivo">
+		<a href="../html/objetivo.html"><button  id="boton-objetivo"> Objetivo </button></a>
+	</div>
+	
+	<div id="marco-tratamiento">
+		<a href="../html/tratamiento.html"><button  id="boton-tratamiento"> Tratamiento </button></a>
+	</div>
+		
+	<div id="marco-beneficios">
+		<a href="../html/beneficios.html"><button  id="boton-beneficios"> Beneficios </button></a>
+	</div>
+	
+	<div id="marco-dosis">
+		<a href="../html/dosis.html"><button  id="boton-dosis"> Dosis </button></a>
+	</div>
+	
+	<div id="marco-aplicacion">
+		<a href="../html/aplicacion.html"><button  id="boton-aplicacion"> Aplicación </button></a>
+	</div>
+	
+	<div id="marco-referencias">
+		<a href="../html/referencias.html"><button  id="boton-referencias"> Referencias </button></a>
+	</div>
+	
+</div>
+	
+</body>
+</html>

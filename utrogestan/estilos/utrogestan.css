@@ -1,0 +1,132 @@
+/*Fuentes*/
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fuentes/Montserrat-Light.otf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fuentes/Montserrat-SemiBold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fuentes/Montserrat-Regular.otf");
+}
+body {
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-image: url(../imagenes/utrogestan1.png);
+}
+
+div#Arriba{
+	/*background-color: #FFFFFF;*/
+	width: 450px;
+  	height: 550px;
+	margin-top: 60px;
+	margin-left: 500px;
+	position:absolute;
+}
+div#logo-ogestan{
+	position: absolute;
+  	top:55px;
+	left: 90px;
+}
+img#logo-ogestan{
+	width: 257px;
+	height: 125px;
+}
+div#cuadro-texto{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 250px;
+	left: 0px;
+	text-align: center;
+}
+div#linea1{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	top: 30px;
+	left: 0px;
+}
+div#linea2{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	top: 75px;
+	left: 0px;
+}
+div#linea3{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	top: 115px;
+	left: 0px;
+}
+div#linea4{
+	/*border: 3px solid green;*/
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	top: 155px;
+	left: 5px;
+}
+label#letra-regular{
+	font-family: "Montserrat-Regular";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 25px;
+}
+label#letra-semibold{
+	font-family: "Montserrat-SemiBold";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 25px;
+}
+label#super-semibold{
+	font-family: "Montserrat-SemiBold";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 20px;
+	vertical-align: super;
+}
+label#letra-light{
+	font-family: "Montserrat-Light";
+	font: bolder;
+	color: #DE407A;
+	width: 290px;
+    height: 130px;
+	font-size: 25px;
+}
+div#logo-besins{
+	position: absolute;
+  	top:560px;
+	left: 380px;
+}
+img#logo-besins{
+	width: 85px;
+	height: 40px;
+}
+div#marco-pop{
+	top: 76px;
+	left: 206px;
+	width: 10px;
+    height: 10px;
+	position:absolute;
+}
+label#pop{
+	font-family: "Montserrat-Light";
+	vertical-align: super;
+	color: #DE407A;
+	font-size: 15px;
+}

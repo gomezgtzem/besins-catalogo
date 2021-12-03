@@ -1,0 +1,62 @@
+@charset "utf-8";
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+/*tamaño del popup*/
+div#continua{
+    width:50px;
+    padding:50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: rgba(0,0,0,#35302E);
+}
+
+div#marco-continua{
+    margin-top: 0px;
+    margin-left: 0px;
+    position:absolute;
+}
+img#circuloestrogel{
+    width:250px;
+    height:250px;
+    margin-top: -20px;
+    margin-left: 300px;
+    position:absolute;
+}
+button#boton-continua{
+    font-size: 12px;
+    font-family: "Montserrat-SemiBold";
+    width:135px;
+    height:36px;
+    color: #FFFFFF;
+    border-width: 0px;
+    border-radius: 0px 30px 30px 0px;
+    background: #03AE9D;
+    white-space: normal;
+    box-shadow: 15px 10px 20px -10px rgba(0, 0, 0, 4.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.boton-continua:focus {
+    outline:0 !important;
+}
+#cerrar{
+    background-color:#E8FAFD;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: ##EAE9EE;
+    border-radius: 200px;
+}
